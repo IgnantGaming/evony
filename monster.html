@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+  <head>
+    <title>Monster Loot chest Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .grid-container2 {
+            display: grid;
+            grid-template-columns: 120px auto;
+            align-content: space-evenly;
+            
+            
+          }
+        .grid-container2 > div {
+            padding: 5px 0;
+            font-size: 20px;
+        }
+
+        .grid-container4 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            align-content: space-evenly;
+            
+            
+          }
+        .grid-container4 > div {
+            padding: 5px 0;
+            font-size: 20px;
+        }
+
+        .grid-container7 {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto;
+            align-content: space-evenly;
+            
+            
+          }
+        .grid-container7 > div {
+            padding: 5px 0;
+            font-size: 20px;
+        }
+    </style>
+
+    <script>
+
+        function numberWithCommas(x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+
+        function secondsToDhms(seconds) {
+            seconds = Number(seconds);
+            var d = Math.floor(seconds / (3600*24));
+            var h = Math.floor(seconds % (3600*24) / 3600);
+            var m = Math.floor(seconds % 3600 / 60);
+            var s = Math.floor(seconds % 60);
+            
+            var dDisplay = d > 0 ? d + (d == 1 ? " d " : " d ") : "";
+            var hDisplay = h > 0 ? h + (h == 1 ? " h " : " h ") : "";
+            var mDisplay = m > 0 ? m + (m == 1 ? " m " : " m ") : "";
+            
+            return dDisplay + hDisplay + mDisplay;
+            }
+
+        // Loot Tables Global Variable
+        var BlueMaterial = 0,
+            PurpleMaterial = 0,
+            Food = 0,
+            Lumber = 0,
+            Stone = 0,
+            Ore = 0,
+            RefiningStone = 0,
+            TacticScroll = 0,
+            ResearchStone = 0,
+            Gold = 0,
+            Construction = 0, 
+            Training = 0,
+            Healing = 0, 
+            Research = 0,
+            Trap = 0,
+            Crafting = 0, 
+            General = 0;
+
+        function checkValues(){
+
+            BlueMaterial = 0, PurpleMaterial = 0,
+            Food = 0, Lumber = 0, Stone = 0, Ore = 0,
+            RefiningStone = 0, TacticScroll = 0, ResearchStone = 0, Gold = 0,
+            Construction = 0, Training = 0, Healing = 0, Healing = 0,
+            Trap = 0, Crafting = 0, Research = 0, General = 0;
+
+            // Monster Variables
+            // Ymir
+            var y1 = parseInt(document.getElementById("y1").value),
+            y2 = parseInt(document.getElementById("y2").value),
+            y3 = parseInt(document.getElementById("y3").value),
+            y4 = parseInt(document.getElementById("y4").value),
+            y5 = parseInt(document.getElementById("y5").value),
+            ymir = y1 + y2 + y3 + y4 + y5;
+
+            // Warlord
+            var war1 = parseInt(document.getElementById("war1").value),
+            war2 = parseInt(document.getElementById("war2").value),
+            war3 = parseInt(document.getElementById("war3").value),
+            war4 = parseInt(document.getElementById("war4").value),
+            war5 = parseInt(document.getElementById("war5").value),
+            warlord = war1 + war2 + war3 + war4 + war5;
+
+            // Cerberus
+            var c1 = parseInt(document.getElementById("c1").value),
+            c2 = parseInt(document.getElementById("c2").value),
+            c3 = parseInt(document.getElementById("c3").value),
+            cerberus = c1 + c2 + c3;
+
+            if (ymir > 0){
+                ymirCalc(y1, y2, y3, y4, y5)
+            }
+
+            if (warlord > 0){
+                warCalc(war1, war2, war3, war4, war5)
+            }
+
+            if (cerberus > 0){
+                cCalc(c1, c2, c3)
+            }
+
+            printResults()
+
+        }
+
+        function printResults(){
+            document.getElementById("food").innerHTML = numberWithCommas(Food);
+            document.getElementById("lumber").innerHTML = numberWithCommas(Lumber);
+            document.getElementById("stone").innerHTML = numberWithCommas(Stone);
+            document.getElementById("ore").innerHTML = numberWithCommas(Ore);
+
+            document.getElementById("General").innerHTML = secondsToDhms(General);
+            document.getElementById("Construction").innerHTML = secondsToDhms(Construction);
+            document.getElementById("Crafting").innerHTML = secondsToDhms(Crafting);
+            document.getElementById("Healing").innerHTML = secondsToDhms(Healing);
+            document.getElementById("Research").innerHTML = secondsToDhms(Research);
+            document.getElementById("Training").innerHTML = secondsToDhms(Training);
+            document.getElementById("Trap").innerHTML = secondsToDhms(Trap);
+
+            document.getElementById("RefiningStone").innerHTML = numberWithCommas(RefiningStone);
+            document.getElementById("TacticScroll").innerHTML = numberWithCommas(TacticScroll);
+            document.getElementById("ResearchStone").innerHTML = numberWithCommas(ResearchStone);
+            document.getElementById("Gold").innerHTML = numberWithCommas(Gold);
+
+            
+            
+        }
+
+
+        // ymir Calc
+        function ymirCalc(y1, y2, y3, y4, y5) {
+            
+            // Ymir 1 Math
+            if (y1 > 0) {
+                BlueMaterial += (y1 * 7),
+                Food += (y1 * (50000 * 5)),
+                Lumber += (y1 * (50000 * 5)),
+                Stone += (y1 * (50000 * 5)),
+                Ore += (y1 * (50000 * 5)),
+                RefiningStone += (y1 * 4),
+                Construction += (((y1 * 4) * 60) * 60),
+                Training += (((y1 * 4) * 60) * 60);
+            }
+
+            // Ymir 2 Math
+            if (y2 > 0) {
+                BlueMaterial += (y2 * 13),
+                Food += (y2 * (100000 * 8)),
+                Lumber += (y2 * (100000 * 8)),
+                Stone += (y2 * (100000 * 8)),
+                Ore += (y2 * (100000 * 8)),
+                RefiningStone += (y2 * 8),
+                Healing += (3 * (((y2 * 5) * 60) * 60)),
+                Research += (3 * (((y2 * 5) * 60) * 60));
+            }
+
+            // Ymir 3 Math
+            if (y3 > 0) {
+                PurpleMaterial += (y3 * 9),
+                Food += (y3 * (500000 * 4)),
+                Lumber += (y3 * (500000 * 4)),
+                Stone += (y3 * (500000 * 4)),
+                Ore += (y3 * (500000 * 4)),
+                RefiningStone += (y3 * 12),
+                General += (3 * (((y3 * 8) * 60) * 60));
+            }
+
+            // Ymir 4 Math
+            if (y4 > 0) {
+                PurpleMaterial += (y4 * 10),
+                Food += (y4 * (100000 * 22)),
+                Lumber += (y4 * (100000 * 22)),
+                Stone += (y4 * (100000 * 22)),
+                Ore += (y4 * (100000 * 22)),
+                RefiningStone += (y4 * 13),
+                TacticScroll += (y4 * 3),
+                General += (3 * (((y4 * 8) * 60) * 60));
+            }
+
+            // Ymir 5 Math
+            if (y5 > 0) {
+                PurpleMaterial += (y5 * 12),
+                Food += (y5 * (100000 * 25)),
+                Lumber += (y5 * (100000 * 25)),
+                Stone += (y5 * (100000 * 25)),
+                Ore += (y5 * (100000 * 25)),
+                RefiningStone += (y5 * 15),
+                TacticScroll += (y5 * 5),
+                General += (3 * (((y5 * 12) * 60) * 60));
+            }
+        }
+
+        // warlord Calc
+        function warCalc(war1, war2, war3, war4, war5){
+            // Warlord 1 Math
+            if (war1 > 0) {
+                BlueMaterial += (war1 * 5),
+                Food += (war1 * (50000 * 4)),
+                Lumber += (war1 * (50000 * 4)),
+                Stone += (war1 * (50000 * 4)),
+                Ore += (war1 * (50000 * 4)),
+                RefiningStone += (war1 * 3),
+                Gold += (war1 * (50000 * 1)),
+                ResearchStone += (war1 * 1);
+            }
+        
+            // Warlord 2 Math
+            if (war2 > 0) {
+                BlueMaterial += (war2 * 10),
+                Food += (war2 * (100000 * 6)),
+                Lumber += (war2 * (100000 * 6)),
+                Stone += (war2 * (100000 * 5)),
+                Ore += (war2 * (100000 * 6)),
+                RefiningStone += (war2 * 6),
+                Healing += (3 * (((war2 * 3) * 60) * 60)),
+                ResearchStone += (war2 * 1);
+            }
+        
+            // Warlord 3 Math
+            if (war3 > 0) {
+                PurpleMaterial += (war3 * 7),
+                Food += (war3 * (500000 * 3)),
+                Lumber += (war3 * (500000 * 3)),
+                Stone += (war3 * (500000 * 3)),
+                Ore += (war3 * (500000 * 3)),
+                RefiningStone += (war3 * 9),
+                General += (3 * (((war3 * 4) * 60) * 60)),
+                ResearchStone += (war3 * 2);
+            }
+        
+            // Warlord 4 Math
+            if (war4 > 0) {
+                PurpleMaterial += (war4 * 8),
+                Food += (war4 * (100000 * 17)),
+                Lumber += (war4 * (100000 * 17)),
+                Stone += (war4 * (100000 * 17)),
+                Ore += (war4 * (100000 * 17)),
+                RefiningStone += (war4 * 10),
+                General += (3 * (((war4 * 5) * 60) * 60)),
+                ResearchStone += (war4 * 2);
+            }
+        
+            // Warlord 5 Math
+            if (war5 > 0) {
+                PurpleMaterial += (war5 * 10),
+                Food += (war5 * (100000 * 20)),
+                Lumber += (war5 * (100000 * 20)),
+                Stone += (war5 * (100000 * 20)),
+                Ore += (war5 * (100000 * 20)),
+                RefiningStone += (war5 * 12),
+                General += (3 * (((war5 * 5) * 60) * 60)),
+                ResearchStone += (war5 * 2);
+            }
+
+        }
+
+        // Cerberus Calc
+        function cCalc(c1, c2, c3){
+            // Cerberus 1 Math
+            if (c1 > 0) {
+                Training += (6 * (((c1 * 1) * 60) * 60)),
+                Healing += (6 * (((c1 * 1) * 60) * 60)),
+                Research += (6 * (((c1 * 1) * 60) * 60)),
+                Construction += (10 * (((c1 * 1) * 60) * 60)),
+                Trap += (6 * (((c1 * 1) * 60) * 60)),
+                Crafting += (6 * (((c1 * 1) * 60) * 60)),
+                // Hours
+                General += (3 * (((c1 * 3) * 60) * 60)),
+                // Minutes
+                General += (30 * (c1 * 15)),
+                General += (15 * (c1 * 30));
+            }
+        
+            // Cerberus 2 Math
+            if (c2 > 0) {
+                Training += (4 * (((c2 * 3) * 60) * 60)),
+                Healing += (4 * (((c2 * 3) * 60) * 60)),
+                Research += (4 * (((c2 * 3) * 60) * 60)),
+                Construction += (6 * (((c2 * 3) * 60) * 60)),
+                Trap += (4 * (((c2 * 3) * 60) * 60)),
+                Crafting += (4 * (((c2 * 3) * 60) * 60)),
+                // Hours
+                General += (2 * (((c2 * 8) * 60) * 60)),
+                // Minutes
+                General += (30 * (c2 * 30)),
+                General += (15 * (c2 * 60));
+            }
+        
+            // Cerberus 3 Math
+            if (c3 > 0) {
+                Training += (3 * (((c3 * 8) * 60) * 60)),
+                Healing += (3 * (((c3 * 8) * 60) * 60)),
+                Research += (3 * (((c3 * 8) * 60) * 60)),
+                Construction += (4 * (((c3 * 8) * 60) * 60)),
+                Trap += (3 * (((c3 * 8) * 60) * 60)),
+                Crafting += (3 * (((c3 * 8) * 60) * 60)),
+                // Hours
+                General += (1 * (((c3 * 12) * 60) * 60)),
+                // Minutes
+                General += (30 * (c3 * 60));
+            }
+        }
+
+        
+        
+
+
+    </script>
+  </head>
+  
+  <body>
+         
+    <div class="body">
+      <p>Updated Content - Monster Calculations</p> 
+
+      <div class="container">
+        <h2>Monster Calculators</h2>
+        <p>Click on the collapsible panel to open and close it.</p>
+        <p id="result">
+            <p>Resources:</p>
+            <div class="grid-container4">
+                <!-- Row 1 (Food, Lumber, Stone, Ore)-->
+                <div>Food</div>
+                <div>Lumber</div>
+                <div>Stone</div>
+                <div>Ore</div>
+                <!--Resource Results-->
+                <div id="food"></div>
+                <div id="lumber"></div>
+                <div id="stone"></div>
+                <div id="ore"></div>
+            </div>
+            <p>Speed Ups:</p>
+            <div class="grid-container7">
+                <!-- Row 1 (speed ups)-->
+                <div>General</div>
+                <div>Construction</div>
+                <div>Crafting</div>
+                <div>Healing</div>
+                <div>Research</div>
+                <div>Training</div>
+                <div>Trap</div>
+                <!--Speed up Results-->
+                <div id="General"></div>
+                <div id="Construction"></div>
+                <div id="Crafting"></div>
+                <div id="Healing"></div>
+                <div id="Research"></div>
+                <div id="Training"></div>
+                <div id="Trap"></div>
+            </div>
+            <p>Other: </p>
+            <div class="grid-container4" >
+                <!-- Row 1 (Food, Lumber, Stone, Ore)-->
+                <div text-align="center">Refining Stones</div>
+                <div text-align="center">Tactic Scroll</div>
+                <div text-align="center">Research Stone</div>
+                <div text-align="center">Gold</div>
+                <!--Resource Results-->
+                <div id="RefiningStone"></div>
+                <div id="TacticScroll"></div>
+                <div id="ResearchStone"></div>
+                <div id="Gold"></div>
+            </div>
+
+        </p>
+
+        <div class="panel-group">
+            <!-- Ymir -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse1">Ymir</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="grid-container2">
+                    <!-- Row 1 -->
+                    <div>Common</div>
+                    <div><input type="number" id="y1" name="y1" value="0"></div>
+                    <!-- Row 2 -->
+                    <div>Uncommon</div>
+                    <div><input type="number" id="y2" name="y2" value="0"></div>
+                    <!-- Row 3 -->
+                    <div>Grand</div>
+                    <div><input type="number" id="y3" name="y3" value="0"></div>
+                    <!-- Row 4 -->
+                    <div>Super</div>
+                    <div><input type="number" id="y4" name="y4" value="0"></div>
+                    <!-- Row 5 -->
+                    <div>Legendary</div>
+                    <div><input type="number" id="y5" name="y5" value="0"></div>
+                  </div>
+              </div>
+            </div>
+            <!-- Warlord -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse2">Warlord</a>
+                  </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="grid-container2">
+                        <!-- Row 1 -->
+                        <div>Junior</div>
+                        <div><input type="number" id="war1" name="war1" value="0"></div>
+                        <!-- Row 2 -->
+                        <div>Medium</div>
+                        <div><input type="number" id="war2" name="war2" value="0"></div>
+                        <!-- Row 3 -->
+                        <div>Senior</div>
+                        <div><input type="number" id="war3" name="war3" value="0"></div>
+                        <!-- Row 4 -->
+                        <div>Legendary</div>
+                        <div><input type="number" id="war4" name="war4" value="0"></div>
+                        <!-- Row 5 -->
+                        <div>Epic</div>
+                        <div><input type="number" id="war5" name="war5" value="0"></div>
+                      </div>
+                  </div>
+                </div>
+                <!-- Cerberus -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse3">Cerberus</a>
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="grid-container2">
+                        <!-- Row 1 -->
+                        <div>Junior</div>
+                        <div><input type="number" id="c1" name="c1" value="0"></div>
+                        <!-- Row 2 -->
+                        <div>Medium</div>
+                        <div><input type="number" id="c2" name="c2" value="0"></div>
+                        <!-- Row 3 -->
+                        <div>Senior</div>
+                        <div><input type="number" id="c3" name="c3" value="0"></div>
+                  </div>
+                </div>
+            </div>
+            <!-- Submit -->
+        <div><button onClick="checkValues()">Calculate</button></div>
+          </div>
+      </div>
+
+        
+      </div>
+
+      
+
+      
+    </div>
+    
+  </body>
+</html>
