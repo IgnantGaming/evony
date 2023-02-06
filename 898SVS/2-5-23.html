@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"/>
+
+    <script>
+      $(document).ready(function() {
+        fetch('2-5-23.json')
+          .then(response => response.json())
+          .then(data => {
+            $('#example').DataTable( {
+              data: data,
+              columns: [
+                { data: "Evony Rank" },
+                { data: "Player" },
+                { data: "Pos Score" },
+                { data: "Neg Score" },
+                { data: "Net Score" },
+                { data: "True Rank" }
+              ]
+            } );
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <table id="example" class="display">
+      <thead>
+        <tr>
+          <th>Evony Rank</th>
+          <th>Player</th>
+          <th>Pos Score</th>
+          <th>Neg Score</th>
+          <th>Net Score</th>
+          <th>True Rank</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+</html>
