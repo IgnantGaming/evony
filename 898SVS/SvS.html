@@ -15,9 +15,24 @@
                 {data: 'Date'},
                 {data: 'Evony Rank'},
                 {data: 'Player'},
-                {data: 'Pos Score'},
-                {data: 'Neg Score'},
-                {data: 'Net Score'},
+                {
+                  data: 'Pos Score',
+                  render: function(data) {
+                    return data.toLocaleString();
+                  }
+                },
+                {
+                  data: 'Neg Score',
+                  render: function(data) {
+                    return data.toLocaleString();
+                  }
+                },
+                {
+                  data: 'Net Score',
+                  render: function(data) {
+                    return `<span style="color: ${data < 0 ? 'red' : 'black'}">${data.toLocaleString()}</span>`;
+                  }
+                },
                 {data: 'True Rank'}
               ]
             });
