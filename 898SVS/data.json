@@ -1267,5 +1267,96 @@
         "Pos Score": 801499,
         "Neg Score": 1924560,
         "Net Score": -1123061
+    },
+    {
+        "Date": "02\/19\/2023",
+        "Evony Rank": 1,
+        "Alliance": "VBB",
+        "Player": "Dr@g0n$L@i!r",
+        "Pos Score": 805691296,
+        "Neg Score": 3273827328,
+        "Net Score": -2468136032
+    },
+    {
+        "Date": "02\/19\/2023",
+        "Evony Rank": 2,
+        "Alliance": "UWS",
+        "Player": "Big Earl",
+        "Pos Score": 730697879,
+        "Neg Score": 457741024,
+        "Net Score": 272956855
+    },
+    {
+        "Date": "02\/19\/2023",
+        "Evony Rank": 3,
+        "Alliance": "UWS",
+        "Player": "IgnantGaming",
+        "Pos Score": 293669874,
+        "Neg Score": 109901672,
+        "Net Score": 183768202
+    },
+    {
+        "Date": "02\/19\/2023",
+        "Evony Rank": 4,
+        "Alliance": "UWS",
+        "Player": "SeaB@ss724",
+        "Pos Score": 281108949,
+        "Neg Score": 1349160064,
+        "Net Score": -1068051115
+    },
+    {
+        "Date": "02\/19\/2023",
+        "Evony Rank": 5,
+        "Alliance": "BRN",
+        "Player": "Nutfact",
+        "Pos Score": 278426719,
+        "Neg Score": 43606632,
+        "Net Score": 234820087
+    },
+    {
+        "Date": "02\/19\/2023",
+        "Evony Rank": 6,
+        "Alliance": "UWS",
+        "Player": ".SWT.",
+        "Pos Score": 272059807,
+        "Neg Score": 527041408,
+        "Net Score": -254981601
+    },
+    {
+        "Date": "02\/19\/2023",
+        "Evony Rank": 7,
+        "Alliance": "VBB",
+        "Player": "~ayano~",
+        "Pos Score": 193945405,
+        "Neg Score": 1071901056,
+        "Net Score": -877955651
+    },
+    {
+        "Date": "02\/19\/2023",
+        "Evony Rank": 8,
+        "Alliance": "UWS",
+        "Player": "JVest",
+        "Pos Score": 175279959,
+        "Neg Score": 98970224,
+        "Net Score": 76309735
+    },
+    {
+        "Date": "02\/19\/2023",
+        "Evony Rank": 9,
+        "Alliance": "BRN",
+        "Player": "Mega Hertz",
+        "Pos Score": 159772932,
+        "Neg Score": 346348800,
+        "Net Score": -186575868
+    },
+    {
+        "Date": "02\/19\/2023",
+        "Evony Rank": 10,
+        "Alliance": "UWS",
+        "Player": "MisTags",
+        "Pos Score": 77957759,
+        "Neg Score": 262059680,
+        "Net Score": -184101921
     }
+    
 ]
