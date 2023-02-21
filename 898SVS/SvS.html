@@ -18,25 +18,6 @@
     <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"/>
     <script>
-      function filterGlobal() {
-        $('#example')
-            .DataTable()
-            .search($('#global_filter').val(), $('#global_regex').prop('checked'), $('#global_smart').prop('checked'))
-            .draw();
-      }
-     
-      function filterColumn(i) {
-        $('#example')
-            .DataTable()
-            .column(i)
-            .search(
-                $('#col' + i + '_filter').val(),
-                $('#col' + i + '_regex').prop('checked'),
-                $('#col' + i + '_smart').prop('checked')
-            )
-            .draw();
-      }
-
       $(document).ready(function() {
         fetch('data.json')
           .then(r => r.json())
@@ -75,16 +56,14 @@
                   }
               ]
             });
+          // Enable regex search and multiple search terms for the Player column
+          $('#example_filter input').on('keyup', function () {
+            const searchTerms = this.value.trim().split(/\s+/).join('|');
+            table.column(3).search(searchTerms, true, false).draw();
           });
-          $('input.global_filter').on('keyup click', function () {
-            filterGlobal();
-          });
-     
-          $('input.column_filter').on('keyup click', function () {
-            filterColumn($(this).parents('tr').attr('data-column'));
-          });
-      });
-    </script>
+        });
+    });
+  </script>
   </head>
   <body style="background-color:rgb(172,172,186)">
     <div><h2><center>Evony TKR 898 - SvS Results Master List</center></h2></div>
