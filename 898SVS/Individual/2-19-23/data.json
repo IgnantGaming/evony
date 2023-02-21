@@ -183,7 +183,7 @@
         "Date": "02\/19\/2023",
         "Evony Rank": 19,
         "Alliance": "VBB",
-        "Player": "~<Joker>~",
+        "Player": "~&lt;Joker&gt;~",
         "Pos Score": 61304756,
         "Neg Score": 124623424,
         "Net Score": -63318668,
@@ -1111,7 +1111,7 @@
     {
         "Date": "02\/19\/2023",
         "Evony Rank": 999,
-        "Alliance": 10,
+        "Alliance": "1E1",
         "Player": "agonya",
         "Pos Score": 599999,
         "Neg Score": 2377140,
