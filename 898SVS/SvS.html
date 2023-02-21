@@ -18,6 +18,25 @@
     <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"/>
     <script>
+      function filterGlobal() {
+        $('#example')
+            .DataTable()
+            .search($('#global_filter').val(), $('#global_regex').prop('checked'), $('#global_smart').prop('checked'))
+            .draw();
+      }
+     
+      function filterColumn(i) {
+        $('#example')
+            .DataTable()
+            .column(i)
+            .search(
+                $('#col' + i + '_filter').val(),
+                $('#col' + i + '_regex').prop('checked'),
+                $('#col' + i + '_smart').prop('checked')
+            )
+            .draw();
+      }
+
       $(document).ready(function() {
         fetch('data.json')
           .then(r => r.json())
@@ -54,12 +73,15 @@
                       return `<span style="color: ${data < 1.0 ? 'red' : 'black'}">${formattedData}</span>`;
                     }
                   }
-              ],
-              search: {
-                regex: true,
-                smart: true
-              }
+              ]
             });
+          });
+          $('input.global_filter').on('keyup click', function () {
+            filterGlobal();
+          });
+     
+          $('input.column_filter').on('keyup click', function () {
+            filterColumn($(this).parents('tr').attr('data-column'));
           });
       });
     </script>
@@ -84,8 +106,8 @@
     <div> 
       <h2>Historical Results</h2>
       <ul>
-        <li><div title="Positive 599,999 or Negative 428,382 did not make top 100 of that ranking. Easy Server overall, 898 had stupid people.">Feb 19, 2023 Vs. 640 <a href="https://ignantgaming.github.io/evony/898SVS/Individual/2-19-23/SvS640.html">Click Here</a></br></div></li>
-        <li><div title="Positive 801,499 or Negative 1,924,559 did not make top 100 of that ranking. Tough server to play.">Feb 5, 2023 Vs. 998 <a href="https://ignantgaming.github.io/evony/898SVS/Individual/2-05-23/SvS998.html">Click Here</a></br></div></li>
+        <li><div title="Positive 599,999 or Negative 428,382 did not make top 100 of that ranking. Easy Server overall, 898 had stupid people.">Feb 19, 2023 Vs. 640<a href="https://ignantgaming.github.io/evony/898SVS/Individual/2-19-23/SvS640.html">Click Here</a></br></div></li>
+        <li><div title="Positive 801,499 or Negative 1,924,559 did not make top 100 of that ranking. Tough server to play.">Feb 5, 2023 Vs. 998<a href=https://ignantgaming.github.io/evony/898SVS/Individual/2-05-23/SvS998.html">Click Here</a></br></div></li>
       </ul>
     </div>
   </body>
