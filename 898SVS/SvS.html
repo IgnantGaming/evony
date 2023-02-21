@@ -56,11 +56,6 @@
                   }
               ]
             });
-          // Enable regex search and multiple search terms for the Player column
-          $('#example_filter input').on('keyup', function () {
-            const searchTerms = this.value.trim().split(/\s+/).join('|');
-            table.column(3).search(searchTerms, true, false).draw();
-          });
         });
     });
   </script>
