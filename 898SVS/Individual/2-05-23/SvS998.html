@@ -50,7 +50,8 @@
                 {
                     data: 'Kill Ratio',
                     render: function(data) {
-                      return `<span style="color: ${data < 1.0 ? 'red' : 'black'}">${data.toLocaleString()}</span>`;
+                      const formattedData = parseFloat(data).toFixed(2);
+                      return `<span style="color: ${data < 1.0 ? 'red' : 'black'}">${formattedData}</span>`;
                     }
                   }
               ]
