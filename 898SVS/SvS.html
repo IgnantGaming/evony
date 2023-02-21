@@ -54,7 +54,11 @@
                       return `<span style="color: ${data < 1.0 ? 'red' : 'black'}">${formattedData}</span>`;
                     }
                   }
-              ]
+              ],
+              search: {
+                regex: true,
+                smart: true
+              }
             });
           });
       });
