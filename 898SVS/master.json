@@ -5,8 +5,8 @@
         "Alliance": "UWS",
         "Pos Score": 5227088099,
         "Neg Score": 3570294720,
-        "Net Score": 938478755,
-        "Kill Ratio": 1.3458173851347062
+        "Net Score": 1656793379,
+        "Kill Ratio": 1.464049471803829
     },
     {
         "Rank": 2,
@@ -23,8 +23,8 @@
         "Alliance": "UWS",
         "Pos Score": 979460507,
         "Neg Score": 170500607,
-        "Net Score": 669103047,
-        "Kill Ratio": 4.980471441535416
+        "Net Score": 808959900,
+        "Kill Ratio": 5.744615953185433
     },
     {
         "Rank": 4,
@@ -32,8 +32,8 @@
         "Alliance": "UWS",
         "Pos Score": 1952550103,
         "Neg Score": 2710267968,
-        "Net Score": 589405416,
-        "Kill Ratio": 1.7858089110327646
+        "Net Score": -757717865,
+        "Kill Ratio": 0.7204269563208002
     },
     {
         "Rank": 5,
@@ -41,8 +41,8 @@
         "Alliance": "VBB",
         "Pos Score": 1025354342,
         "Neg Score": 453582505,
-        "Net Score": 458538721,
-        "Kill Ratio": 2.012621970340742
+        "Net Score": 571771837,
+        "Kill Ratio": 2.2605685419899517
     },
     {
         "Rank": 6,
@@ -50,8 +50,8 @@
         "Alliance": "UWS",
         "Pos Score": 3263266868,
         "Neg Score": 2673158272,
-        "Net Score": 264067702,
-        "Kill Ratio": 1.1275601354056897
+        "Net Score": 590108596,
+        "Kill Ratio": 1.2207533321842905
     },
     {
         "Rank": 7,
@@ -68,8 +68,8 @@
         "Alliance": "VBB",
         "Pos Score": 2756992435,
         "Neg Score": 5592510720,
-        "Net Score": 152962938,
-        "Kill Ratio": 1.096265668900229
+        "Net Score": -2835518285,
+        "Kill Ratio": 0.4929793742085129
     },
     {
         "Rank": 9,
@@ -77,12 +77,12 @@
         "Alliance": "UWS",
         "Pos Score": 314627181,
         "Neg Score": 165456734,
-        "Net Score": 148048152,
-        "Kill Ratio": 1.8971073770402798
+        "Net Score": 149170447,
+        "Kill Ratio": 1.901567699263301
     },
     {
         "Rank": 10,
-        "Player": "jiliguyo (\u00ec\u00a7\u20ac\u00eb\u00a6\u00ac\u00ea\u00b5\u00ac\u00ec\u0161\u201d)",
+        "Player": "jiliguyo",
         "Alliance": "VBB",
         "Pos Score": 145582912,
         "Neg Score": 45717364,
@@ -95,8 +95,8 @@
         "Alliance": "UWS",
         "Pos Score": 101167725,
         "Neg Score": 32259634,
-        "Net Score": 52005499,
-        "Kill Ratio": 2.6337874174726146
+        "Net Score": 68908091,
+        "Kill Ratio": 3.1360468937744304
     },
     {
         "Rank": 12,
@@ -113,17 +113,17 @@
         "Alliance": "UWS",
         "Pos Score": 132657883,
         "Neg Score": 89554870,
-        "Net Score": 42348995,
-        "Kill Ratio": 1.4751561062296092
+        "Net Score": 43103013,
+        "Kill Ratio": 1.481302837020477
     },
     {
         "Rank": 14,
-        "Player": "Arale (\u00e3\u201a\u00a2\u00e3\u0192\u00a9\u00e3\u0192\u00ac)",
+        "Player": "Arale",
         "Alliance": "VBB",
-        "Pos Score": 39829793,
-        "Neg Score": 1924559,
-        "Net Score": 37905234,
-        "Kill Ratio": 20.695542719137215
+        "Pos Score": 43610093,
+        "Neg Score": 2352941,
+        "Net Score": 41257152,
+        "Kill Ratio": 18.534290915071818
     },
     {
         "Rank": 15,
@@ -131,8 +131,8 @@
         "Alliance": "VBB",
         "Pos Score": 867930517,
         "Neg Score": 956918288,
-        "Net Score": 36702275,
-        "Kill Ratio": 1.0444434164833694
+        "Net Score": -88987771,
+        "Kill Ratio": 0.9070058832442337
     },
     {
         "Rank": 16,
@@ -140,8 +140,8 @@
         "Alliance": "VNT",
         "Pos Score": 68310334,
         "Neg Score": 3828098,
-        "Net Score": 35992275,
-        "Kill Ratio": 19.70157007397539
+        "Net Score": 64482236,
+        "Kill Ratio": 17.8444580049936
     },
     {
         "Rank": 17,
@@ -149,8 +149,8 @@
         "Alliance": "UWS",
         "Pos Score": 170511838,
         "Neg Score": 324812168,
-        "Net Score": 29801591,
-        "Kill Ratio": 1.4749069232123513
+        "Net Score": -154300330,
+        "Kill Ratio": 0.524955204264392
     },
     {
         "Rank": 18,
@@ -158,8 +158,8 @@
         "Alliance": "DUA",
         "Pos Score": 36687199,
         "Neg Score": 37715438,
-        "Net Score": 12337994,
-        "Kill Ratio": 1.5652614809803027
+        "Net Score": -1028239,
+        "Kill Ratio": 0.9727369200909187
     },
     {
         "Rank": 19,
@@ -172,15 +172,6 @@
     },
     {
         "Rank": 20,
-        "Player": "Arale  (\u00e3\u201a\u00a2\u00e3\u0192\u00a9\u00e3\u0192\u00ac)",
-        "Alliance": "VBB",
-        "Pos Score": 3780300,
-        "Neg Score": 428382,
-        "Net Score": 3351918,
-        "Kill Ratio": 8.824600473409246
-    },
-    {
-        "Rank": 21,
         "Player": "Encore",
         "Alliance": "UWS",
         "Pos Score": 2219416,
@@ -189,16 +180,16 @@
         "Kill Ratio": 5.180927303201348
     },
     {
-        "Rank": 22,
+        "Rank": 21,
         "Player": "Tycoon2240",
         "Alliance": "BRN",
         "Pos Score": 5943392,
         "Neg Score": 2352941,
-        "Net Score": 1470433,
-        "Kill Ratio": 1.764036332479285
+        "Net Score": 3590451,
+        "Kill Ratio": 2.525941789445634
     },
     {
-        "Rank": 23,
+        "Rank": 22,
         "Player": "Venus X",
         "Alliance": "NIL",
         "Pos Score": 1644971,
@@ -207,7 +198,7 @@
         "Kill Ratio": 3.8399629302818514
     },
     {
-        "Rank": 24,
+        "Rank": 23,
         "Player": "Shadow",
         "Alliance": "UWS",
         "Pos Score": 1578000,
@@ -216,7 +207,7 @@
         "Kill Ratio": 3.6836281636483323
     },
     {
-        "Rank": 25,
+        "Rank": 24,
         "Player": "Mr.SalMan",
         "Alliance": "UWS",
         "Pos Score": 1484200,
@@ -225,7 +216,7 @@
         "Kill Ratio": 3.464664715137424
     },
     {
-        "Rank": 26,
+        "Rank": 25,
         "Player": "Aeres",
         "Alliance": "UWS",
         "Pos Score": 1636834,
@@ -234,7 +225,7 @@
         "Kill Ratio": 2.549863692302899
     },
     {
-        "Rank": 27,
+        "Rank": 26,
         "Player": "Bluddshed",
         "Alliance": "NIL",
         "Pos Score": 1360918,
@@ -243,7 +234,7 @@
         "Kill Ratio": 3.176879514078556
     },
     {
-        "Rank": 28,
+        "Rank": 27,
         "Player": "Monarch150982561",
         "Alliance": "POU",
         "Pos Score": 3913742,
@@ -252,16 +243,16 @@
         "Kill Ratio": 1.2996005971782796
     },
     {
-        "Rank": 29,
+        "Rank": 28,
         "Player": "475 MINATO",
         "Alliance": "VBB",
         "Pos Score": 5572500,
         "Neg Score": 2352941,
-        "Net Score": 792441,
-        "Kill Ratio": 1.411751990975595
+        "Net Score": 3219559,
+        "Kill Ratio": 2.3683126776234507
     },
     {
-        "Rank": 30,
+        "Rank": 29,
         "Player": "Nhannhan92",
         "Alliance": "VNT",
         "Pos Score": 1148000,
@@ -270,7 +261,7 @@
         "Kill Ratio": 2.6798511608797755
     },
     {
-        "Rank": 31,
+        "Rank": 30,
         "Player": "starwal mael",
         "Alliance": "BRN",
         "Pos Score": 2581281,
@@ -279,7 +270,7 @@
         "Kill Ratio": 1.341232458968522
     },
     {
-        "Rank": 32,
+        "Rank": 31,
         "Player": "Guardiandan78",
         "Alliance": "UWS",
         "Pos Score": 1006000,
@@ -288,16 +279,7 @@
         "Kill Ratio": 2.34837131345388
     },
     {
-        "Rank": 33,
-        "Player": "T1Ta",
-        "Alliance": "UWS",
-        "Pos Score": 900000,
-        "Neg Score": 428382,
-        "Net Score": 471618,
-        "Kill Ratio": 2.100928610445817
-    },
-    {
-        "Rank": 34,
+        "Rank": 32,
         "Player": "Sea",
         "Alliance": "VBB",
         "Pos Score": 869000,
@@ -306,7 +288,7 @@
         "Kill Ratio": 2.0285632916415723
     },
     {
-        "Rank": 35,
+        "Rank": 33,
         "Player": "aunty@kor",
         "Alliance": "VBB",
         "Pos Score": 810500,
@@ -315,16 +297,16 @@
         "Kill Ratio": 1.8920029319625942
     },
     {
-        "Rank": 36,
+        "Rank": 34,
         "Player": "HONORIN",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 800000,
         "Neg Score": 428382,
         "Net Score": 371618,
         "Kill Ratio": 1.8674920981740597
     },
     {
-        "Rank": 37,
+        "Rank": 35,
         "Player": "jaime38",
         "Alliance": "BRN",
         "Pos Score": 796500,
@@ -333,7 +315,7 @@
         "Kill Ratio": 1.859321820244548
     },
     {
-        "Rank": 38,
+        "Rank": 36,
         "Player": "M!$tral",
         "Alliance": "PHX",
         "Pos Score": 779000,
@@ -342,16 +324,16 @@
         "Kill Ratio": 1.8184704305969905
     },
     {
-        "Rank": 39,
+        "Rank": 37,
         "Player": "M1shra",
         "Alliance": "VBB",
         "Pos Score": 2998238,
         "Neg Score": 2352941,
-        "Net Score": 332679,
-        "Kill Ratio": 1.1728598603628155
+        "Net Score": 645297,
+        "Kill Ratio": 1.2742512455688435
     },
     {
-        "Rank": 40,
+        "Rank": 38,
         "Player": "Volleyball JP",
         "Alliance": "VNT",
         "Pos Score": 755331,
@@ -360,7 +342,7 @@
         "Kill Ratio": 1.7632183425073882
     },
     {
-        "Rank": 41,
+        "Rank": 39,
         "Player": "diego",
         "Alliance": "BRN",
         "Pos Score": 754500,
@@ -369,7 +351,7 @@
         "Kill Ratio": 1.76127848509041
     },
     {
-        "Rank": 42,
+        "Rank": 40,
         "Player": " Buck Ronin 98",
         "Alliance": "RNS",
         "Pos Score": 638500,
@@ -378,7 +360,7 @@
         "Kill Ratio": 1.4904921308551713
     },
     {
-        "Rank": 43,
+        "Rank": 41,
         "Player": "BiB",
         "Alliance": "VNT",
         "Pos Score": 628000,
@@ -387,7 +369,7 @@
         "Kill Ratio": 1.4659812970666368
     },
     {
-        "Rank": 44,
+        "Rank": 42,
         "Player": "Vitalk 37",
         "Alliance": "UWS",
         "Pos Score": 609500,
@@ -396,52 +378,52 @@
         "Kill Ratio": 1.4227955422963616
     },
     {
-        "Rank": 45,
+        "Rank": 43,
         "Player": "Nick1986",
         "Alliance": "VBB",
         "Pos Score": 16891361,
         "Neg Score": 69915759,
-        "Net Score": 179941,
-        "Kill Ratio": 1.0934972635289435
+        "Net Score": -53024398,
+        "Kill Ratio": 0.24159590400785036
     },
     {
-        "Rank": 46,
+        "Rank": 44,
         "Player": "Monarch172561",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 600000,
         "Neg Score": 428382,
         "Net Score": 171618,
         "Kill Ratio": 1.4006190736305446
     },
     {
-        "Rank": 47,
+        "Rank": 45,
         "Player": "Monarch151059982",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 599999,
         "Neg Score": 428383,
         "Net Score": 171616,
         "Kill Ratio": 1.400613469722188
     },
     {
-        "Rank": 48,
+        "Rank": 46,
         "Player": "Monarch150931903",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 599999,
         "Neg Score": 589488,
         "Net Score": 10511,
         "Kill Ratio": 1.0178307276823277
     },
     {
-        "Rank": 49,
+        "Rank": 47,
         "Player": "Yumic",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 2974500,
         "Neg Score": 2352941,
-        "Net Score": -27059,
-        "Kill Ratio": 0.9859401556408507
+        "Net Score": 621559,
+        "Kill Ratio": 1.2641625948121946
     },
     {
-        "Rank": 50,
+        "Rank": 48,
         "Player": "ALGAML 1973",
         "Alliance": "VNT",
         "Pos Score": 599999,
@@ -450,16 +432,16 @@
         "Kill Ratio": 0.8683053545586107
     },
     {
-        "Rank": 51,
+        "Rank": 49,
         "Player": "Yomo",
         "Alliance": "VBB",
         "Pos Score": 4197500,
         "Neg Score": 2352941,
-        "Net Score": -108059,
-        "Kill Ratio": 0.9438525916846405
+        "Net Score": 1844559,
+        "Kill Ratio": 1.7839376337953226
     },
     {
-        "Rank": 52,
+        "Rank": 50,
         "Player": "odessitka",
         "Alliance": "RNS",
         "Pos Score": 599999,
@@ -468,43 +450,43 @@
         "Kill Ratio": 0.7275572467247743
     },
     {
-        "Rank": 53,
+        "Rank": 51,
         "Player": "Athena",
         "Alliance": "RUS",
         "Pos Score": 3549810,
         "Neg Score": 2572999,
-        "Net Score": -287059,
-        "Kill Ratio": 0.850844271336966
+        "Net Score": 976811,
+        "Kill Ratio": 1.3796390904155034
     },
     {
-        "Rank": 54,
+        "Rank": 52,
         "Player": "bacot",
         "Alliance": "VBB",
         "Pos Score": 4586075,
         "Neg Score": 2352941,
-        "Net Score": -288484,
-        "Kill Ratio": 0.8501038419710697
+        "Net Score": 2233134,
+        "Kill Ratio": 1.9490820211811515
     },
     {
-        "Rank": 55,
+        "Rank": 53,
         "Player": "Archer Shin",
         "Alliance": "VBB",
         "Pos Score": 2316500,
         "Neg Score": 2352941,
-        "Net Score": -323559,
-        "Kill Ratio": 0.8318788875789207
+        "Net Score": -36441,
+        "Kill Ratio": 0.984512573838443
     },
     {
-        "Rank": 56,
+        "Rank": 54,
         "Player": "*GoldLion*",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 1543500,
         "Neg Score": 1924559,
         "Net Score": -381059,
         "Kill Ratio": 0.8020019131655616
     },
     {
-        "Rank": 57,
+        "Rank": 55,
         "Player": "Buck Ronin 98",
         "Alliance": "POU",
         "Pos Score": 1504000,
@@ -513,16 +495,16 @@
         "Kill Ratio": 0.7814777307424714
     },
     {
-        "Rank": 58,
+        "Rank": 56,
         "Player": "jjp.cox",
         "Alliance": "BRN",
         "Pos Score": 2797349,
         "Neg Score": 57957091,
-        "Net Score": -440247,
-        "Kill Ratio": 0.7712478547033372
+        "Net Score": -55159742,
+        "Kill Ratio": 0.04826586275698344
     },
     {
-        "Rank": 59,
+        "Rank": 57,
         "Player": "LAXAMANA",
         "Alliance": "GFA",
         "Pos Score": 599999,
@@ -531,7 +513,7 @@
         "Kill Ratio": 0.5631287107897518
     },
     {
-        "Rank": 60,
+        "Rank": 58,
         "Player": "Pasechnyk",
         "Alliance": "8g3",
         "Pos Score": 599999,
@@ -540,25 +522,25 @@
         "Kill Ratio": 0.5377674725424434
     },
     {
-        "Rank": 61,
+        "Rank": 59,
         "Player": "Ho",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 1303000,
         "Neg Score": 1924559,
         "Net Score": -621559,
         "Kill Ratio": 0.6770382201844682
     },
     {
-        "Rank": 62,
+        "Rank": 60,
         "Player": "Lions & Roses",
         "Alliance": "RUS",
         "Pos Score": 2901500,
         "Neg Score": 2352941,
-        "Net Score": -623059,
-        "Kill Ratio": 0.6762588208519458
+        "Net Score": 548559,
+        "Kill Ratio": 1.2331375924853194
     },
     {
-        "Rank": 63,
+        "Rank": 61,
         "Player": "Nurdan37",
         "Alliance": "SoG",
         "Pos Score": 1265000,
@@ -567,7 +549,7 @@
         "Kill Ratio": 0.6572934370939004
     },
     {
-        "Rank": 64,
+        "Rank": 62,
         "Player": "Resistenza",
         "Alliance": "FCN",
         "Pos Score": 1450513,
@@ -576,16 +558,16 @@
         "Kill Ratio": 0.6869253770360134
     },
     {
-        "Rank": 65,
+        "Rank": 63,
         "Player": "3 a H o 3 a",
         "Alliance": "RUS",
         "Pos Score": 2100000,
         "Neg Score": 2352941,
-        "Net Score": -681059,
-        "Kill Ratio": 0.6461220466610792
+        "Net Score": -252941,
+        "Kill Ratio": 0.892500066937505
     },
     {
-        "Rank": 66,
+        "Rank": 64,
         "Player": "Tartu Angel",
         "Alliance": "UDS",
         "Pos Score": 1226000,
@@ -594,25 +576,25 @@
         "Kill Ratio": 0.6370290544483178
     },
     {
-        "Rank": 67,
+        "Rank": 65,
         "Player": "Odakun",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 2201500,
         "Neg Score": 2352941,
-        "Net Score": -723059,
-        "Kill Ratio": 0.6242988653504518
+        "Net Score": -151441,
+        "Kill Ratio": 0.9356375701728178
     },
     {
-        "Rank": 68,
+        "Rank": 66,
         "Player": "~ayano~",
         "Alliance": "VBB",
         "Pos Score": 195436905,
         "Neg Score": 1073825615,
-        "Net Score": -784059,
-        "Kill Ratio": 0.5926032924945404
+        "Net Score": -878388710,
+        "Kill Ratio": 0.18200059885887523
     },
     {
-        "Rank": 69,
+        "Rank": 67,
         "Player": "AYUMI",
         "Alliance": "SoG",
         "Pos Score": 1125050,
@@ -621,7 +603,7 @@
         "Kill Ratio": 0.5845754793695594
     },
     {
-        "Rank": 70,
+        "Rank": 68,
         "Player": "BIB",
         "Alliance": "VNT",
         "Pos Score": 1107500,
@@ -630,7 +612,7 @@
         "Kill Ratio": 0.5754565071790473
     },
     {
-        "Rank": 71,
+        "Rank": 69,
         "Player": "Kyosuke ",
         "Alliance": "DUA",
         "Pos Score": 599999,
@@ -639,7 +621,7 @@
         "Kill Ratio": 0.4231817963815075
     },
     {
-        "Rank": 72,
+        "Rank": 70,
         "Player": "Sihaya",
         "Alliance": "RUS",
         "Pos Score": 1102210,
@@ -648,7 +630,7 @@
         "Kill Ratio": 0.5727078255330182
     },
     {
-        "Rank": 73,
+        "Rank": 71,
         "Player": "xuxuzinho",
         "Alliance": "GOT",
         "Pos Score": 599999,
@@ -657,7 +639,7 @@
         "Kill Ratio": 0.40958974057907893
     },
     {
-        "Rank": 74,
+        "Rank": 72,
         "Player": "NUN'RUMPTI0CA",
         "Alliance": "VBB",
         "Pos Score": 1055335,
@@ -666,25 +648,25 @@
         "Kill Ratio": 0.5483515963916928
     },
     {
-        "Rank": 75,
+        "Rank": 73,
         "Player": "N o p a H C",
         "Alliance": "RUS",
         "Pos Score": 1631500,
         "Neg Score": 2352941,
-        "Net Score": -925059,
-        "Kill Ratio": 0.5193397552374336
+        "Net Score": -721441,
+        "Kill Ratio": 0.6933875520040664
     },
     {
-        "Rank": 76,
+        "Rank": 74,
         "Player": "69Lucifer69",
         "Alliance": "RUS",
         "Pos Score": 1799500,
         "Neg Score": 2352941,
-        "Net Score": -970559,
-        "Kill Ratio": 0.4956979754842538
+        "Net Score": -553441,
+        "Kill Ratio": 0.7647875573590668
     },
     {
-        "Rank": 77,
+        "Rank": 75,
         "Player": "Talestri",
         "Alliance": "VBB",
         "Pos Score": 901781,
@@ -693,7 +675,7 @@
         "Kill Ratio": 0.46856500632092857
     },
     {
-        "Rank": 78,
+        "Rank": 76,
         "Player": "S.@.S.42",
         "Alliance": "VBB",
         "Pos Score": 900000,
@@ -702,16 +684,16 @@
         "Kill Ratio": 0.46763959951344697
     },
     {
-        "Rank": 79,
+        "Rank": 77,
         "Player": "Tskuyomi",
         "Alliance": "VBB",
         "Pos Score": 12482153,
         "Neg Score": 90752799,
-        "Net Score": -1024559,
-        "Kill Ratio": 0.46763959951344697
+        "Net Score": -78270646,
+        "Kill Ratio": 0.1375401435276944
     },
     {
-        "Rank": 80,
+        "Rank": 78,
         "Player": "Vinlove",
         "Alliance": "BRN",
         "Pos Score": 900000,
@@ -720,25 +702,25 @@
         "Kill Ratio": 0.46763959951344697
     },
     {
-        "Rank": 81,
+        "Rank": 79,
         "Player": "ODYSSEUS 26",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 896814,
         "Neg Score": 1924559,
         "Net Score": -1027745,
         "Kill Ratio": 0.4659841553311694
     },
     {
-        "Rank": 82,
+        "Rank": 80,
         "Player": "Granducato",
         "Alliance": "VBB",
         "Pos Score": 1967813,
         "Neg Score": 16856159,
-        "Net Score": -1052424,
-        "Kill Ratio": 0.45316095791295563
+        "Net Score": -14888346,
+        "Kill Ratio": 0.11674148303892957
     },
     {
-        "Rank": 83,
+        "Rank": 81,
         "Player": "Williamina",
         "Alliance": "BRN",
         "Pos Score": 856002,
@@ -747,7 +729,7 @@
         "Kill Ratio": 0.4447782582918996
     },
     {
-        "Rank": 84,
+        "Rank": 82,
         "Player": "Altea",
         "Alliance": "DUA",
         "Pos Score": 850000,
@@ -756,16 +738,16 @@
         "Kill Ratio": 0.4416596217626999
     },
     {
-        "Rank": 85,
+        "Rank": 83,
         "Player": "Known Number",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 841544,
         "Neg Score": 1924559,
         "Net Score": -1083015,
         "Kill Ratio": 0.4372658879254936
     },
     {
-        "Rank": 86,
+        "Rank": 84,
         "Player": "VictorBrasil.",
         "Alliance": "UWS",
         "Pos Score": 838600,
@@ -774,7 +756,7 @@
         "Kill Ratio": 0.4357361868355296
     },
     {
-        "Rank": 87,
+        "Rank": 85,
         "Player": "Pr0mil",
         "Alliance": "TRK",
         "Pos Score": 829350,
@@ -783,16 +765,16 @@
         "Kill Ratio": 0.4309298909516414
     },
     {
-        "Rank": 88,
+        "Rank": 86,
         "Player": "Slappy Sr",
         "Alliance": "UWS",
         "Pos Score": 1506500,
         "Neg Score": 2352941,
-        "Net Score": -1106059,
-        "Kill Ratio": 0.4252922357797293
+        "Net Score": -846441,
+        "Kill Ratio": 0.6402625480196911
     },
     {
-        "Rank": 89,
+        "Rank": 87,
         "Player": "Devil25",
         "Alliance": "VNT",
         "Pos Score": 810000,
@@ -801,7 +783,7 @@
         "Kill Ratio": 0.4208756395621023
     },
     {
-        "Rank": 90,
+        "Rank": 88,
         "Player": "BillyBigRig",
         "Alliance": "VBB",
         "Pos Score": 801500,
@@ -810,7 +792,7 @@
         "Kill Ratio": 0.41645904334447525
     },
     {
-        "Rank": 91,
+        "Rank": 89,
         "Player": "MohamedANewir",
         "Alliance": "UEM",
         "Pos Score": 801499,
@@ -819,16 +801,16 @@
         "Kill Ratio": 0.4164583073533691
     },
     {
-        "Rank": 92,
+        "Rank": 90,
         "Player": "SAW",
         "Alliance": "BRN",
         "Pos Score": 843356298,
         "Neg Score": 2681033905,
-        "Net Score": -1147606,
-        "Kill Ratio": 0.41121386482513766
+        "Net Score": -1837677607,
+        "Kill Ratio": 0.3145638316722444
     },
     {
-        "Rank": 93,
+        "Rank": 91,
         "Player": "Henrylogan",
         "Alliance": "LiG",
         "Pos Score": 599999,
@@ -837,7 +819,7 @@
         "Kill Ratio": 0.3334783966776604
     },
     {
-        "Rank": 94,
+        "Rank": 92,
         "Player": "Jerusalem 11",
         "Alliance": "POU",
         "Pos Score": 801499,
@@ -846,7 +828,7 @@
         "Kill Ratio": 0.3501361011084235
     },
     {
-        "Rank": 95,
+        "Rank": 93,
         "Player": "o0o J4DeD o0o",
         "Alliance": "SoG",
         "Pos Score": 599999,
@@ -855,25 +837,25 @@
         "Kill Ratio": 0.2632790494908394
     },
     {
-        "Rank": 96,
+        "Rank": 94,
         "Player": "Monarch150946580",
         "Alliance": "8g3",
         "Pos Score": 1401498,
         "Neg Score": 6101788,
-        "Net Score": -1739496,
-        "Kill Ratio": 0.3154272243747036
+        "Net Score": -4700290,
+        "Kill Ratio": 0.2296864460056626
     },
     {
-        "Rank": 97,
+        "Rank": 95,
         "Player": "Gramps 67",
         "Alliance": "PF1",
         "Pos Score": 1401498,
         "Neg Score": 9548782,
-        "Net Score": -1850985,
-        "Kill Ratio": 0.30216921195377616
+        "Net Score": -8147284,
+        "Kill Ratio": 0.1467724365264596
     },
     {
-        "Rank": 98,
+        "Rank": 96,
         "Player": "@$$Nn9",
         "Alliance": "FaS",
         "Pos Score": 801499,
@@ -882,16 +864,16 @@
         "Kill Ratio": 0.3018905945613673
     },
     {
-        "Rank": 99,
+        "Rank": 97,
         "Player": "Erwin Rodas",
         "Alliance": "DUA",
         "Pos Score": 1401498,
         "Neg Score": 11002037,
-        "Net Score": -2058236,
-        "Kill Ratio": 0.2802703747025511
+        "Net Score": -9600539,
+        "Kill Ratio": 0.1273853196458074
     },
     {
-        "Rank": 100,
+        "Rank": 98,
         "Player": "cepot strexxx",
         "Alliance": "SoG",
         "Pos Score": 801499,
@@ -900,7 +882,7 @@
         "Kill Ratio": 0.27506529162448307
     },
     {
-        "Rank": 101,
+        "Rank": 99,
         "Player": "acdv 291911",
         "Alliance": "BRN",
         "Pos Score": 801499,
@@ -909,7 +891,7 @@
         "Kill Ratio": 0.26919354015304586
     },
     {
-        "Rank": 102,
+        "Rank": 100,
         "Player": "kap jonax",
         "Alliance": "DUA",
         "Pos Score": 783194,
@@ -918,7 +900,7 @@
         "Kill Ratio": 0.25528684460826273
     },
     {
-        "Rank": 103,
+        "Rank": 101,
         "Player": "Dissin' Terry",
         "Alliance": "ONE",
         "Pos Score": 801499,
@@ -927,7 +909,7 @@
         "Kill Ratio": 0.2501932249525522
     },
     {
-        "Rank": 104,
+        "Rank": 102,
         "Player": "Monarch150873827",
         "Alliance": "-",
         "Pos Score": 801499,
@@ -936,7 +918,7 @@
         "Kill Ratio": 0.2213841012042868
     },
     {
-        "Rank": 105,
+        "Rank": 103,
         "Player": "gawkgawk3000",
         "Alliance": "PF1",
         "Pos Score": 801499,
@@ -945,7 +927,7 @@
         "Kill Ratio": 0.21294686683431438
     },
     {
-        "Rank": 106,
+        "Rank": 104,
         "Player": "Kride",
         "Alliance": "DUA",
         "Pos Score": 599999,
@@ -954,16 +936,16 @@
         "Kill Ratio": 0.16412249028940315
     },
     {
-        "Rank": 107,
+        "Rank": 105,
         "Player": "Sonboss",
         "Alliance": "DUA",
         "Pos Score": 1401498,
         "Neg Score": 6637911,
-        "Net Score": -3108893,
-        "Kill Ratio": 0.20496640745991707
+        "Net Score": -5236413,
+        "Kill Ratio": 0.21113540088139174
     },
     {
-        "Rank": 108,
+        "Rank": 106,
         "Player": "Fire..",
         "Alliance": "BRN",
         "Pos Score": 801499,
@@ -972,7 +954,7 @@
         "Kill Ratio": 0.18372992149232437
     },
     {
-        "Rank": 109,
+        "Rank": 107,
         "Player": "Prince buze",
         "Alliance": "Pie",
         "Pos Score": 801499,
@@ -981,34 +963,34 @@
         "Kill Ratio": 0.18029976814073254
     },
     {
-        "Rank": 110,
+        "Rank": 108,
         "Player": "Darkoland",
         "Alliance": "GFA",
         "Pos Score": 1401498,
         "Neg Score": 14981025,
-        "Net Score": -4096849,
-        "Kill Ratio": 0.16362638995841047
+        "Net Score": -13579527,
+        "Kill Ratio": 0.09355154270151742
     },
     {
-        "Rank": 111,
+        "Rank": 109,
         "Player": "Mojca36",
         "Alliance": "VNT",
         "Pos Score": 1401498,
         "Neg Score": 9987716,
-        "Net Score": -4192359,
-        "Kill Ratio": 0.16049695445885725
+        "Net Score": -8586218,
+        "Kill Ratio": 0.14032217175578482
     },
     {
-        "Rank": 112,
+        "Rank": 110,
         "Player": "dz",
         "Alliance": "VNT",
-        "Pos Score": 801499,
-        "Neg Score": 5273586,
-        "Net Score": -4472087,
-        "Kill Ratio": 0.1519836786581275
+        "Pos Score": 1401498,
+        "Neg Score": 26491874,
+        "Net Score": -25090376,
+        "Kill Ratio": 0.052902939218267456
     },
     {
-        "Rank": 113,
+        "Rank": 111,
         "Player": "Monarch150878477",
         "Alliance": "DUA",
         "Pos Score": 599999,
@@ -1017,7 +999,7 @@
         "Kill Ratio": 0.11161698493372824
     },
     {
-        "Rank": 114,
+        "Rank": 112,
         "Player": "Nike",
         "Alliance": "BRN",
         "Pos Score": 801499,
@@ -1026,16 +1008,16 @@
         "Kill Ratio": 0.13486980210040417
     },
     {
-        "Rank": 115,
+        "Rank": 113,
         "Player": "T1TA",
         "Alliance": "UWS",
-        "Pos Score": 33397635,
-        "Neg Score": 38788424,
-        "Net Score": -5390789,
-        "Kill Ratio": 0.8610206746218924
+        "Pos Score": 34297635,
+        "Neg Score": 39216806,
+        "Net Score": -4919171,
+        "Kill Ratio": 0.8745647210535198
     },
     {
-        "Rank": 116,
+        "Rank": 114,
         "Player": "Mr.Rogers13",
         "Alliance": "PF1",
         "Pos Score": 599999,
@@ -1044,7 +1026,7 @@
         "Kill Ratio": 0.09911775142415927
     },
     {
-        "Rank": 117,
+        "Rank": 115,
         "Player": "Monarch Puma",
         "Alliance": "DUA",
         "Pos Score": 801499,
@@ -1053,7 +1035,7 @@
         "Kill Ratio": 0.1256115440522507
     },
     {
-        "Rank": 118,
+        "Rank": 116,
         "Player": "Blast away",
         "Alliance": "VNT",
         "Pos Score": 599999,
@@ -1062,16 +1044,16 @@
         "Kill Ratio": 0.09614481099180588
     },
     {
-        "Rank": 119,
+        "Rank": 117,
         "Player": "Tarudora",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 1497138,
         "Neg Score": 19460925,
-        "Net Score": -5685476,
-        "Kill Ratio": 0.12355512392139634
+        "Net Score": -17963787,
+        "Kill Ratio": 0.0769304645077251
     },
     {
-        "Rank": 120,
+        "Rank": 118,
         "Player": "dendaren",
         "Alliance": "SoG",
         "Pos Score": 801499,
@@ -1080,7 +1062,7 @@
         "Kill Ratio": 0.11607285995918691
     },
     {
-        "Rank": 121,
+        "Rank": 119,
         "Player": "elshroouk",
         "Alliance": "SoG",
         "Pos Score": 599999,
@@ -1089,16 +1071,16 @@
         "Kill Ratio": 0.08814698710892238
     },
     {
-        "Rank": 122,
+        "Rank": 120,
         "Player": "WarmWaterPort",
         "Alliance": "8g3",
         "Pos Score": 1401498,
         "Neg Score": 16782391,
-        "Net Score": -6492281,
-        "Kill Ratio": 0.10988801417097856
+        "Net Score": -15380893,
+        "Kill Ratio": 0.08351003143711763
     },
     {
-        "Rank": 123,
+        "Rank": 121,
         "Player": "M@$$7",
         "Alliance": "DUA",
         "Pos Score": 599999,
@@ -1107,8 +1089,8 @@
         "Kill Ratio": 0.08374385336538495
     },
     {
-        "Rank": 124,
-        "Player": "Mitsuki (\u00e5\u2026\u2026\u00e5\u00b8\u0152\u00e3\u20ac\u201a)",
+        "Rank": 122,
+        "Player": "Mitsuki",
         "Alliance": "NIL",
         "Pos Score": 599999,
         "Neg Score": 7673350,
@@ -1116,16 +1098,16 @@
         "Kill Ratio": 0.07819257560257253
     },
     {
-        "Rank": 125,
+        "Rank": 123,
         "Player": "agonya",
         "Alliance": "1E1",
         "Pos Score": 1401498,
         "Neg Score": 10612417,
-        "Net Score": -7433778,
-        "Kill Ratio": 0.09732508086856095
+        "Net Score": -9210919,
+        "Kill Ratio": 0.13206209292378918
     },
     {
-        "Rank": 126,
+        "Rank": 124,
         "Player": "Gea",
         "Alliance": "VBB",
         "Pos Score": 5328367,
@@ -1134,7 +1116,7 @@
         "Kill Ratio": 0.4023839759504534
     },
     {
-        "Rank": 127,
+        "Rank": 125,
         "Player": "LIM, an ALT",
         "Alliance": "SoG",
         "Pos Score": 801499,
@@ -1143,7 +1125,7 @@
         "Kill Ratio": 0.09133342176106099
     },
     {
-        "Rank": 128,
+        "Rank": 126,
         "Player": "<--'NasJo'-->",
         "Alliance": "PHX",
         "Pos Score": 801499,
@@ -1152,7 +1134,7 @@
         "Kill Ratio": 0.09101770526533823
     },
     {
-        "Rank": 129,
+        "Rank": 127,
         "Player": "Cuzz20",
         "Alliance": "PHX",
         "Pos Score": 1360373,
@@ -1161,7 +1143,7 @@
         "Kill Ratio": 0.14481361317561778
     },
     {
-        "Rank": 130,
+        "Rank": 128,
         "Player": "Belal morocco",
         "Alliance": "BRN",
         "Pos Score": 4454962,
@@ -1170,7 +1152,7 @@
         "Kill Ratio": 0.3457966065226412
     },
     {
-        "Rank": 131,
+        "Rank": 129,
         "Player": "Bald_Eagle83",
         "Alliance": "VNT",
         "Pos Score": 801499,
@@ -1179,16 +1161,16 @@
         "Kill Ratio": 0.08647236128424186
     },
     {
-        "Rank": 132,
+        "Rank": 130,
         "Player": "W n o p a",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 599999,
         "Neg Score": 9152460,
         "Net Score": -8552461,
         "Kill Ratio": 0.065556036300623
     },
     {
-        "Rank": 133,
+        "Rank": 131,
         "Player": "xuxzinho",
         "Alliance": "GOT",
         "Pos Score": 801499,
@@ -1197,7 +1179,7 @@
         "Kill Ratio": 0.08318898495507426
     },
     {
-        "Rank": 134,
+        "Rank": 132,
         "Player": "BRETAGNE",
         "Alliance": "ONE",
         "Pos Score": 1241957,
@@ -1206,7 +1188,7 @@
         "Kill Ratio": 0.12315370878533813
     },
     {
-        "Rank": 135,
+        "Rank": 133,
         "Player": "Gutz!!",
         "Alliance": "UWS",
         "Pos Score": 801499,
@@ -1215,7 +1197,7 @@
         "Kill Ratio": 0.07686056009793668
     },
     {
-        "Rank": 136,
+        "Rank": 134,
         "Player": "Langrin",
         "Alliance": "VBB",
         "Pos Score": 801499,
@@ -1224,7 +1206,7 @@
         "Kill Ratio": 0.07569909595427259
     },
     {
-        "Rank": 137,
+        "Rank": 135,
         "Player": "calavera 14",
         "Alliance": "BRN",
         "Pos Score": 1696996,
@@ -1233,7 +1215,7 @@
         "Kill Ratio": 0.14361614977143228
     },
     {
-        "Rank": 138,
+        "Rank": 136,
         "Player": "FGHIJKL",
         "Alliance": "VBB",
         "Pos Score": 801499,
@@ -1242,7 +1224,7 @@
         "Kill Ratio": 0.07131265723392849
     },
     {
-        "Rank": 139,
+        "Rank": 137,
         "Player": "Paulybass",
         "Alliance": "DUA",
         "Pos Score": 2393729,
@@ -1251,7 +1233,7 @@
         "Kill Ratio": 0.18615546456529294
     },
     {
-        "Rank": 140,
+        "Rank": 138,
         "Player": "Mr. Rogers13",
         "Alliance": "PF1",
         "Pos Score": 801499,
@@ -1260,7 +1242,7 @@
         "Kill Ratio": 0.07097506668919452
     },
     {
-        "Rank": 141,
+        "Rank": 139,
         "Player": "BoPeep",
         "Alliance": "PHX",
         "Pos Score": 1740453,
@@ -1269,7 +1251,7 @@
         "Kill Ratio": 0.14064656499165998
     },
     {
-        "Rank": 142,
+        "Rank": 140,
         "Player": "x<3rovine",
         "Alliance": "VBB",
         "Pos Score": 5984528,
@@ -1278,7 +1260,7 @@
         "Kill Ratio": 0.35239402466893843
     },
     {
-        "Rank": 143,
+        "Rank": 141,
         "Player": "Mylovely Nita",
         "Alliance": "VNT",
         "Pos Score": 599999,
@@ -1287,7 +1269,7 @@
         "Kill Ratio": 0.05051870163352494
     },
     {
-        "Rank": 144,
+        "Rank": 142,
         "Player": "marnia47",
         "Alliance": "BRN",
         "Pos Score": 2712957,
@@ -1296,16 +1278,16 @@
         "Kill Ratio": 0.19197057772525766
     },
     {
-        "Rank": 145,
+        "Rank": 143,
         "Player": "Monarch150887646",
         "Alliance": "Fur",
         "Pos Score": 1401498,
         "Neg Score": 15674789,
-        "Net Score": -11575983,
-        "Kill Ratio": 0.06475460840904475
+        "Net Score": -14273291,
+        "Kill Ratio": 0.08941096431983869
     },
     {
-        "Rank": 146,
+        "Rank": 144,
         "Player": "atosan",
         "Alliance": "SoG",
         "Pos Score": 599999,
@@ -1314,7 +1296,7 @@
         "Kill Ratio": 0.0482965224674992
     },
     {
-        "Rank": 147,
+        "Rank": 145,
         "Player": "HyacinthJ",
         "Alliance": "VBB",
         "Pos Score": 5786988,
@@ -1323,25 +1305,25 @@
         "Kill Ratio": 0.3064933507700006
     },
     {
-        "Rank": 148,
+        "Rank": 146,
         "Player": "WingedVictory",
         "Alliance": "BRN",
         "Pos Score": 1401498,
         "Neg Score": 16680059,
-        "Net Score": -13697531,
-        "Kill Ratio": 0.05527949111078465
+        "Net Score": -15278561,
+        "Kill Ratio": 0.0840223646690938
     },
     {
-        "Rank": 149,
+        "Rank": 147,
         "Player": "Sole'",
         "Alliance": "DUA",
         "Pos Score": 25711900,
         "Neg Score": 105100544,
-        "Net Score": -14797886,
-        "Kill Ratio": 0.597030200256674
+        "Net Score": -79388644,
+        "Kill Ratio": 0.24464097921319988
     },
     {
-        "Rank": 150,
+        "Rank": 148,
         "Player": "BRETAGNE 22",
         "Alliance": "ONE",
         "Pos Score": 801499,
@@ -1350,7 +1332,7 @@
         "Kill Ratio": 0.050116935493452024
     },
     {
-        "Rank": 151,
+        "Rank": 149,
         "Player": "SuNSeT (Alt)",
         "Alliance": "BRN",
         "Pos Score": 726371,
@@ -1359,25 +1341,25 @@
         "Kill Ratio": 0.04387634206018523
     },
     {
-        "Rank": 152,
+        "Rank": 150,
         "Player": "m:zezo",
         "Alliance": "UWS",
         "Pos Score": 2293832,
         "Neg Score": 61255980,
-        "Net Score": -15912953,
-        "Kill Ratio": 0.04795245455848627
+        "Net Score": -58962148,
+        "Kill Ratio": 0.037446662350353384
     },
     {
-        "Rank": 153,
+        "Rank": 151,
         "Player": "PhAnton Wolf",
         "Alliance": "UWS",
         "Pos Score": 9380628,
         "Neg Score": 29429712,
-        "Net Score": -16281371,
-        "Kill Ratio": 0.35035627643444256
+        "Net Score": -20049084,
+        "Kill Ratio": 0.3187468501220807
     },
     {
-        "Rank": 154,
+        "Rank": 152,
         "Player": "BikeRacer",
         "Alliance": "BRN",
         "Pos Score": 801499,
@@ -1386,7 +1368,7 @@
         "Kill Ratio": 0.04611298414378754
     },
     {
-        "Rank": 155,
+        "Rank": 153,
         "Player": "EVA",
         "Alliance": "UWS",
         "Pos Score": 42761798,
@@ -1395,8 +1377,8 @@
         "Kill Ratio": 0.7141731148309348
     },
     {
-        "Rank": 156,
-        "Player": "That (\u00ea\u00b7\u00b8~\u00eb\u0192\u00a5)",
+        "Rank": 154,
+        "Player": "That",
         "Alliance": "Kor",
         "Pos Score": 5470787,
         "Neg Score": 24449120,
@@ -1404,7 +1386,7 @@
         "Kill Ratio": 0.22376212313572022
     },
     {
-        "Rank": 157,
+        "Rank": 155,
         "Player": "$$Dimask$$",
         "Alliance": "UWS",
         "Pos Score": 26761906,
@@ -1413,7 +1395,7 @@
         "Kill Ratio": 0.5816708064652149
     },
     {
-        "Rank": 158,
+        "Rank": 156,
         "Player": "Jack hora",
         "Alliance": "UWS",
         "Pos Score": 599999,
@@ -1422,16 +1404,7 @@
         "Kill Ratio": 0.02919239494028783
     },
     {
-        "Rank": 159,
-        "Player": "dz (\u00d8\u00a7\u00d9\u02c6\u00d9\u0160\u00d8\u00b3 dz)",
-        "Alliance": "VNT",
-        "Pos Score": 599999,
-        "Neg Score": 21218288,
-        "Net Score": -20618289,
-        "Kill Ratio": 0.02827744632366193
-    },
-    {
-        "Rank": 160,
+        "Rank": 157,
         "Player": "Viviurth",
         "Alliance": "PHX",
         "Pos Score": 599999,
@@ -1440,7 +1413,7 @@
         "Kill Ratio": 0.028072434862952952
     },
     {
-        "Rank": 161,
+        "Rank": 158,
         "Player": "Dendaren",
         "Alliance": "SOG",
         "Pos Score": 875119,
@@ -1449,16 +1422,16 @@
         "Kill Ratio": 0.04024702888543491
     },
     {
-        "Rank": 162,
+        "Rank": 159,
         "Player": "Halandri",
         "Alliance": "DUA",
         "Pos Score": 1720787,
         "Neg Score": 47659514,
-        "Net Score": -21221488,
-        "Kill Ratio": 0.04537815488944437
+        "Net Score": -45938727,
+        "Kill Ratio": 0.03610584447000446
     },
     {
-        "Rank": 163,
+        "Rank": 160,
         "Player": "mnmkid",
         "Alliance": "DUA",
         "Pos Score": 891364,
@@ -1467,7 +1440,7 @@
         "Kill Ratio": 0.03530566937523394
     },
     {
-        "Rank": 164,
+        "Rank": 161,
         "Player": "Meanmachine23",
         "Alliance": "VBB",
         "Pos Score": 6112099,
@@ -1476,25 +1449,25 @@
         "Kill Ratio": 0.19736015054409103
     },
     {
-        "Rank": 165,
+        "Rank": 162,
         "Player": "N0R",
-        "Alliance": 225,
+        "Alliance": "225",
         "Pos Score": 2515756,
         "Neg Score": 27824940,
         "Net Score": -25309184,
         "Kill Ratio": 0.09041370799002621
     },
     {
-        "Rank": 166,
+        "Rank": 163,
         "Player": "Georges VV",
         "Alliance": "RUS",
         "Pos Score": 2026060,
         "Neg Score": 48866364,
-        "Net Score": -25420649,
-        "Kill Ratio": 0.03056572634705593
+        "Net Score": -46840304,
+        "Kill Ratio": 0.04146123906415464
     },
     {
-        "Rank": 167,
+        "Rank": 164,
         "Player": "Newton's 1st",
         "Alliance": "UWS",
         "Pos Score": 1356772,
@@ -1503,7 +1476,7 @@
         "Kill Ratio": 0.04958251957925031
     },
     {
-        "Rank": 168,
+        "Rank": 165,
         "Player": "Fearless",
         "Alliance": "SoG",
         "Pos Score": 599999,
@@ -1512,7 +1485,7 @@
         "Kill Ratio": 0.02252620045513513
     },
     {
-        "Rank": 169,
+        "Rank": 166,
         "Player": "IRINA63",
         "Alliance": "RUS",
         "Pos Score": 599999,
@@ -1521,7 +1494,7 @@
         "Kill Ratio": 0.020499743581946665
     },
     {
-        "Rank": 170,
+        "Rank": 167,
         "Player": "Rob2303",
         "Alliance": "UDS",
         "Pos Score": 12662855,
@@ -1530,16 +1503,16 @@
         "Kill Ratio": 0.3007970083669227
     },
     {
-        "Rank": 171,
+        "Rank": 168,
         "Player": "Rocco Siffred",
         "Alliance": "UWS",
         "Pos Score": 2836584,
         "Neg Score": 32084614,
-        "Net Score": -30323148,
-        "Kill Ratio": 0.04211126580068026
+        "Net Score": -29248030,
+        "Kill Ratio": 0.08840947876137766
     },
     {
-        "Rank": 172,
+        "Rank": 169,
         "Player": "starwar mael",
         "Alliance": "BRN",
         "Pos Score": 599999,
@@ -1548,7 +1521,7 @@
         "Kill Ratio": 0.019396251862043284
     },
     {
-        "Rank": 173,
+        "Rank": 170,
         "Player": "Wolf",
         "Alliance": "UWS",
         "Pos Score": 20332404,
@@ -1557,7 +1530,7 @@
         "Kill Ratio": 0.3953130014952847
     },
     {
-        "Rank": 174,
+        "Rank": 171,
         "Player": "Hakuna",
         "Alliance": "BRN",
         "Pos Score": 38034544,
@@ -1566,7 +1539,7 @@
         "Kill Ratio": 0.5403392407911792
     },
     {
-        "Rank": 175,
+        "Rank": 172,
         "Player": "hometown32",
         "Alliance": "UWS",
         "Pos Score": 48137607,
@@ -1575,7 +1548,7 @@
         "Kill Ratio": 0.5907481226186047
     },
     {
-        "Rank": 176,
+        "Rank": 173,
         "Player": "Vitalik 37",
         "Alliance": "UWS",
         "Pos Score": 1309000,
@@ -1584,7 +1557,7 @@
         "Kill Ratio": 0.03729755321212569
     },
     {
-        "Rank": 177,
+        "Rank": 174,
         "Player": "King Punjabi",
         "Alliance": "BRN",
         "Pos Score": 1679518,
@@ -1593,7 +1566,7 @@
         "Kill Ratio": 0.04305106152347295
     },
     {
-        "Rank": 178,
+        "Rank": 175,
         "Player": "Mad - Max",
         "Alliance": "BRN",
         "Pos Score": 801499,
@@ -1602,8 +1575,8 @@
         "Kill Ratio": 0.01747256836044626
     },
     {
-        "Rank": 179,
-        "Player": "MagiMagi (\u00e3\u0192\u017e\u00e3\u201a\u00ae\u00e3\u0192\u017e\u00e3\u201a\u00ae)",
+        "Rank": 176,
+        "Player": "MagiMagi",
         "Alliance": "VBB",
         "Pos Score": 1456234,
         "Neg Score": 48723136,
@@ -1611,7 +1584,7 @@
         "Kill Ratio": 0.029887936605722587
     },
     {
-        "Rank": 180,
+        "Rank": 177,
         "Player": "HungVuong",
         "Alliance": "VNT",
         "Pos Score": 9442531,
@@ -1620,7 +1593,7 @@
         "Kill Ratio": 0.16551233476077504
     },
     {
-        "Rank": 181,
+        "Rank": 178,
         "Player": "Maria.ro",
         "Alliance": "BRN",
         "Pos Score": 1128822,
@@ -1629,7 +1602,7 @@
         "Kill Ratio": 0.02308821522575122
     },
     {
-        "Rank": 182,
+        "Rank": 179,
         "Player": "Lady Loch",
         "Alliance": "UWS",
         "Pos Score": 801499,
@@ -1638,7 +1611,7 @@
         "Kill Ratio": 0.016226476135409354
     },
     {
-        "Rank": 183,
+        "Rank": 180,
         "Player": "Sunset (Main)",
         "Alliance": "BRN",
         "Pos Score": 2481563,
@@ -1647,25 +1620,25 @@
         "Kill Ratio": 0.048472124753045534
     },
     {
-        "Rank": 184,
+        "Rank": 181,
         "Player": "Dorayn",
         "Alliance": "VBB",
         "Pos Score": 2160434,
         "Neg Score": 60835266,
-        "Net Score": -49860165,
-        "Kill Ratio": 0.03034649537344955
+        "Net Score": -58674832,
+        "Kill Ratio": 0.035512855323095
     },
     {
-        "Rank": 185,
+        "Rank": 182,
         "Player": "MOS.1",
         "Alliance": "VBB",
         "Pos Score": 17864727,
         "Neg Score": 171321276,
-        "Net Score": -52849238,
-        "Kill Ratio": 0.08065942562599733
+        "Net Score": -153456549,
+        "Kill Ratio": 0.10427617291386505
     },
     {
-        "Rank": 186,
+        "Rank": 183,
         "Player": "Ney",
         "Alliance": "BRN",
         "Pos Score": 801499,
@@ -1674,7 +1647,7 @@
         "Kill Ratio": 0.013869247733140874
     },
     {
-        "Rank": 187,
+        "Rank": 184,
         "Player": "Veezetech",
         "Alliance": "UWS",
         "Pos Score": 54972647,
@@ -1683,7 +1656,7 @@
         "Kill Ratio": 0.4726553622554795
     },
     {
-        "Rank": 188,
+        "Rank": 185,
         "Player": "Rob 2303",
         "Alliance": "UDS",
         "Pos Score": 870615,
@@ -1692,16 +1665,16 @@
         "Kill Ratio": 0.01312440235703331
     },
     {
-        "Rank": 189,
+        "Rank": 186,
         "Player": "AdmiralA",
         "Alliance": "BRN",
         "Pos Score": 8584261,
         "Neg Score": 77825475,
-        "Net Score": -72837887,
-        "Kill Ratio": 0.0424552354555721
+        "Net Score": -69241214,
+        "Kill Ratio": 0.11030142764949395
     },
     {
-        "Rank": 190,
+        "Rank": 187,
         "Player": "P3NK",
         "Alliance": "SoG",
         "Pos Score": 13582961,
@@ -1710,7 +1683,7 @@
         "Kill Ratio": 0.13763139210129927
     },
     {
-        "Rank": 191,
+        "Rank": 188,
         "Player": "Bogdanus",
         "Alliance": "BRN",
         "Pos Score": 12496803,
@@ -1719,7 +1692,7 @@
         "Kill Ratio": 0.12638627612526518
     },
     {
-        "Rank": 192,
+        "Rank": 189,
         "Player": "Kay",
         "Alliance": "UWS",
         "Pos Score": 101821991,
@@ -1728,7 +1701,7 @@
         "Kill Ratio": 0.5269171844795485
     },
     {
-        "Rank": 193,
+        "Rank": 190,
         "Player": "Patou63",
         "Alliance": "VBB",
         "Pos Score": 3048413,
@@ -1737,7 +1710,7 @@
         "Kill Ratio": 0.031371109212816974
     },
     {
-        "Rank": 194,
+        "Rank": 191,
         "Player": "Hakuna M",
         "Alliance": "BRN",
         "Pos Score": 5323664,
@@ -1746,16 +1719,16 @@
         "Kill Ratio": 0.047858215098821044
     },
     {
-        "Rank": 195,
+        "Rank": 192,
         "Player": ".SWT.",
         "Alliance": "UWS",
         "Pos Score": 474436877,
         "Neg Score": 845217248,
-        "Net Score": -115798770,
-        "Kill Ratio": 0.6360541705492158
+        "Net Score": -370780371,
+        "Kill Ratio": 0.5613194455302928
     },
     {
-        "Rank": 196,
+        "Rank": 193,
         "Player": "MrSalMan",
         "Alliance": "UWS",
         "Pos Score": 42156222,
@@ -1764,7 +1737,7 @@
         "Kill Ratio": 0.25636856892651244
     },
     {
-        "Rank": 197,
+        "Rank": 194,
         "Player": "AJ",
         "Alliance": "VBB",
         "Pos Score": 13215819,
@@ -1773,7 +1746,7 @@
         "Kill Ratio": 0.0943807801878089
     },
     {
-        "Rank": 198,
+        "Rank": 195,
         "Player": "~BELPHEGOR~",
         "Alliance": "UWS",
         "Pos Score": 28227998,
@@ -1782,25 +1755,25 @@
         "Kill Ratio": 0.18122699544367002
     },
     {
-        "Rank": 199,
+        "Rank": 196,
         "Player": "Elvox",
         "Alliance": "DUA",
         "Pos Score": 5504263,
         "Neg Score": 391310576,
-        "Net Score": -180162221,
-        "Kill Ratio": 0.00811181767346774
+        "Net Score": -385806313,
+        "Kill Ratio": 0.014066226004584143
     },
     {
-        "Rank": 200,
+        "Rank": 197,
         "Player": "Angry",
         "Alliance": "UWS",
         "Pos Score": 272813727,
         "Neg Score": 505100254,
-        "Net Score": -232840645,
-        "Kill Ratio": 0.5386296365651224
+        "Net Score": -232286527,
+        "Kill Ratio": 0.5401179762621937
     },
     {
-        "Rank": 201,
+        "Rank": 198,
         "Player": "Snail",
         "Alliance": "UWS",
         "Pos Score": 57027084,
@@ -1809,70 +1782,70 @@
         "Kill Ratio": 0.18999571786458067
     },
     {
-        "Rank": 202,
+        "Rank": 199,
         "Player": "~&lt;Joker&gt;~",
         "Alliance": "VBB",
         "Pos Score": 68173961,
         "Neg Score": 403365568,
-        "Net Score": -271872939,
-        "Kill Ratio": 0.02464358242146548
+        "Net Score": -335191607,
+        "Kill Ratio": 0.1690128419687027
     },
     {
-        "Rank": 203,
+        "Rank": 200,
         "Player": "Maxamillion.",
         "Alliance": "BRN",
         "Pos Score": 236520168,
         "Neg Score": 909311712,
-        "Net Score": -289150629,
-        "Kill Ratio": 0.3755238784981817
+        "Net Score": -672791544,
+        "Kill Ratio": 0.2601090086916201
     },
     {
-        "Rank": 204,
+        "Rank": 201,
         "Player": "Nutfact",
         "Alliance": "BRN",
         "Pos Score": 413015205,
         "Neg Score": 483705672,
-        "Net Score": -306217054,
-        "Kill Ratio": 0.3042087662813352
+        "Net Score": -70690467,
+        "Kill Ratio": 0.8538564439244367
     },
     {
-        "Rank": 205,
+        "Rank": 202,
         "Player": "Jeb",
         "Alliance": "UWS",
         "Pos Score": 259693072,
         "Neg Score": 521257417,
-        "Net Score": -322524474,
-        "Kill Ratio": 0.37992806542454877
+        "Net Score": -261564345,
+        "Kill Ratio": 0.49820503944982714
     },
     {
-        "Rank": 206,
+        "Rank": 203,
         "Player": "Mags",
         "Alliance": "UWS",
         "Pos Score": 436538152,
         "Neg Score": 640812680,
-        "Net Score": -347841234,
-        "Kill Ratio": 0.43771435770861394
+        "Net Score": -204274528,
+        "Kill Ratio": 0.6812258334213986
     },
     {
-        "Rank": 207,
+        "Rank": 204,
         "Player": "CHILL",
         "Alliance": "VBB",
         "Pos Score": 441626164,
         "Neg Score": 864024680,
-        "Net Score": -372638943,
-        "Kill Ratio": 0.5405613488750685
+        "Net Score": -422398516,
+        "Kill Ratio": 0.5111267932763217
     },
     {
-        "Rank": 208,
+        "Rank": 205,
         "Player": "SilverRebel",
         "Alliance": "VBB",
         "Pos Score": 379355056,
         "Neg Score": 1080875104,
-        "Net Score": -384334219,
-        "Kill Ratio": 0.3562683930389729
+        "Net Score": -701520048,
+        "Kill Ratio": 0.35097029674947533
     },
     {
-        "Rank": 209,
+        "Rank": 206,
         "Player": "Egalitaria",
         "Alliance": "DUA",
         "Pos Score": 167300786,
@@ -1881,7 +1854,7 @@
         "Kill Ratio": 0.2936514992535916
     },
     {
-        "Rank": 210,
+        "Rank": 207,
         "Player": "Cr@zyilly",
         "Alliance": "VBB",
         "Pos Score": 145758811,
@@ -1890,7 +1863,7 @@
         "Kill Ratio": 0.20593553291532224
     },
     {
-        "Rank": 211,
+        "Rank": 208,
         "Player": "Ham",
         "Alliance": "UWS",
         "Pos Score": 832406032,
@@ -1899,16 +1872,16 @@
         "Kill Ratio": 0.5438600366449767
     },
     {
-        "Rank": 212,
+        "Rank": 209,
         "Player": "Mega Hertz",
         "Alliance": "BRN",
         "Pos Score": 2712946210,
         "Neg Score": 4030822080,
-        "Net Score": -873300687,
-        "Kill Ratio": 0.7083733935297015
+        "Net Score": -1317875870,
+        "Kill Ratio": 0.6730503495703785
     },
     {
-        "Rank": 213,
+        "Rank": 210,
         "Player": "Toess",
         "Alliance": "VBB",
         "Pos Score": 637161721,
@@ -1917,12 +1890,12 @@
         "Kill Ratio": 0.4140116096401458
     },
     {
-        "Rank": 214,
+        "Rank": 211,
         "Player": "~H8~",
         "Alliance": "UWS",
         "Pos Score": 780450057,
         "Neg Score": 3364623512,
-        "Net Score": -2513243617,
-        "Kill Ratio": 0.22611342910250956
+        "Net Score": -2584173455,
+        "Kill Ratio": 0.23195761850219157
     }
 ]
