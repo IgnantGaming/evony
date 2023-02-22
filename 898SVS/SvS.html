@@ -25,7 +25,12 @@
             $('#example').DataTable({
               data: data,
               columns: [
-                {data: 'Rank'},
+                {
+                  data: 'Rank',
+                  render: function(data) {
+                    return data.toLocaleString();
+                  }
+                },
                 {data: 'Player'},
                 {data: 'Alliance'},
                 {
