@@ -19,7 +19,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"/>
     <script>
       $(document).ready(function() {
-        fetch('data.json')
+        fetch('master.json')
           .then(r => r.json())
           .then(data => {
             $('#example').DataTable({
