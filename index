@@ -18,7 +18,7 @@
     
     <div class="topnav"> 
         <a class="Active" href="#home">Home</a>
-        <a href="svs.html">SvS</a>    
+        <a href="svs">SvS</a>    
     </div>
           
     <div class="body">
