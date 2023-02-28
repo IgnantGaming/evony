@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"/>
+    <script>
+      $(document).ready(function() {
+        fetch('PlayerStats.json')
+          .then(r => r.json())
+          .then(data => {
+            $('#example').DataTable({
+              data: data,
+              columns: [
+                {data: 'Player'},
+                {
+                  data: 'Ground Atk',
+                  render: function(data) {
+                  return data.toLocaleString();
+                  }
+                },
+                {
+                  data: 'Range Atk',
+                  render: function(data) {
+                  return data.toLocaleString();
+                  }
+                },
+                {
+                  data: 'Mounted Atk',
+                  render: function(data) {
+                  return data.toLocaleString();
+                  }
+                },
+                {
+                  data: 'Siege Atk',
+                  render: function(data) {
+                  return data.toLocaleString();
+                  }
+                },
+                {
+                  data: 'March Size',
+                  render: function(data) {
+                  return data.toLocaleString();
+                  }
+                },
+                {
+                  data: 'Keep',
+                  render: function(data) {
+                  return data.toLocaleString();
+                  }
+                },
+                {data: 'Ghoster'}
+              ]
+            });
+          });
+      });
+    </script>
+  </head>
+  <body style="background-color:rgb(172,172,186)">
+    <div><h2><center>Delta Team by Earl</center></h2></div>
+    <table id="example" class="display">
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>Ground Atk</th>
+          <th>Range Atk</th>
+          <th>Mounted Atk</th>
+          <th>Siege Atk</th>
+          <th>March Size</th>
+          <th>Keep</th>
+          <th>Ghoster</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>
