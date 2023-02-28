@@ -1,0 +1,102 @@
+[
+    {
+        "Player": "IgnantGaming",
+        "Ground Atk": "1686",
+        "Range Atk": "1945",
+        "Mounted Atk": "1875",
+        "Siege Atk": "1805",
+        "March Size": "3792000",
+        "Keep": "39",
+        "Ghoster": "No"        
+    },
+    {
+        "Player": "Sir James",
+        "Ground Atk": "566",
+        "Range Atk": "660",
+        "Mounted Atk": "596",
+        "Siege Atk": "396",
+        "March Size": "1141950",
+        "Keep": "34",
+        "Ghoster": "Yes"        
+    },
+    {
+        "Player": "Mags",
+        "Ground Atk": "1093",
+        "Range Atk": "1243",
+        "Mounted Atk": "1292",
+        "Siege Atk": "913",
+        "March Size": "1935000",
+        "Keep": "37",
+        "Ghoster": "No"        
+    },
+    {
+        "Player": "Big Earl",
+        "Ground Atk": "1630",
+        "Range Atk": "1960",
+        "Mounted Atk": "1375",
+        "Siege Atk": "1750",
+        "March Size": "3700000",
+        "Keep": "39",
+        "Ghoster": "No"        
+    },
+    {
+        "Player": "Seabass",
+        "Ground Atk": "863",
+        "Range Atk": "1303",
+        "Mounted Atk": "641",
+        "Siege Atk": "884",
+        "March Size": "2000000",
+        "Keep": "37",
+        "Ghoster": "No"        
+    },
+    {
+        "Player": "Encore",
+        "Ground Atk": "618",
+        "Range Atk": "975",
+        "Mounted Atk": "668",
+        "Siege Atk": "631",
+        "March Size": "1500000",
+        "Keep": "36",
+        "Ghoster": "Yes"        
+    },
+    {
+        "Player": "Jvest",
+        "Ground Atk": "0",
+        "Range Atk": "0",
+        "Mounted Atk": "0",
+        "Siege Atk": "0",
+        "March Size": "0",
+        "Keep": "39",
+        "Ghoster": "No"        
+    },
+    {
+        "Player": "Sorceress",
+        "Ground Atk": "0",
+        "Range Atk": "0",
+        "Mounted Atk": "0",
+        "Siege Atk": "0",
+        "March Size": "0",
+        "Keep": "0",
+        "Ghoster": "No"        
+    },
+    {
+        "Player": "Wolfshire",
+        "Ground Atk": "0",
+        "Range Atk": "0",
+        "Mounted Atk": "0",
+        "Siege Atk": "0",
+        "March Size": "0",
+        "Keep": "0",
+        "Ghoster": "No"        
+    },
+    {
+        "Player": "Kay",
+        "Ground Atk": "0",
+        "Range Atk": "0",
+        "Mounted Atk": "0",
+        "Siege Atk": "0",
+        "March Size": "0",
+        "Keep": "0",
+        "Ghoster": "No"        
+    }    
+]
