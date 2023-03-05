@@ -2377,11 +2377,7 @@
 "alliance_honor_tips2"="This item unlocks when your Alliance Honor reaches {0:D}.";
 "alliance_honor_tips3"="You do not have enough Alliance Points.  You can get more from killing Monsters, Alliance Donation and Alliance Quests.";
 "compose_text"="Compose one high leveled item by consuming three low leveled items.";
-"sacrifice_text"="1. By offering Gems as a tribute, one of your resource production will be boosted.  Tributes also have a chance to drop from killing Monsters.
-
-2. When you offer a tribute, you gain Monarch EXP and Prestige.
-
-3. When your total times you offer a tribute reaches {0:D}, the next round of 7 day Daily Rewards will be upgraded.  Your total times you offer will be reset to zero when you miss any day's Daily Rewards or you have completed the current round of 7 day Daily Rewards.";
+"sacrifice_text"="1. By offering Gems as a tribute, one of your resource production will be boosted.  Tributes also have a chance to drop from killing Monsters. 2. When you offer a tribute, you gain Monarch EXP and Prestige. 3. When your total times you offer a tribute reaches {0:D}, the next round of 7 day Daily Rewards will be upgraded.  Your total times you offer will be reset to zero when you miss any day's Daily Rewards or you have completed the current round of 7 day Daily Rewards.";
 "upgrade_star_success"="You have upgraded {0:S}'s Star level to {1:D}.";
 "change_evony_button"="Select Culture";
 "sacrifice_description"="Offer this Tribute in the Shrine to gain resource production boost, as well as Monarch EXP and Prestige.";
@@ -2403,11 +2399,7 @@
 "guild_unlock_tips"="Alliance Quests unlock at level 11 Keep.";
 "reward_task_all_finished"="You have completed all the Bounty Quests for today.";
 "alliance_introduce_title"="Benefits of being in an Alliance";
-"alliance_introduce_text"="1. Get free Speed Ups on your Timers.
-2. Free resources or reinforcements from Alliance members.
-3. Access to War Hall to organize Alliance War.
-4. Access to rare items in the Alliance Shop.
-5. Access to the Alliance Science buffs.\nAlliance members cannot attack each other.  You can create your own Alliance when your Keep reaches level {0:D}.";
+"alliance_introduce_text"="1. Get free Speed Ups on your Timers. 2. Free resources or reinforcements from Alliance members. 3. Access to War Hall to organize Alliance War. 4. Access to rare items in the Alliance Shop. 5. Access to the Alliance Science buffs.\nAlliance members cannot attack each other.  You can create your own Alliance when your Keep reaches level {0:D}.";
 "hire_general_limit_tips"="You can only have {0:D} Generals.  Please upgrade your Keep and Rank to recruit more Generals.";
 "technology_description_110"="Increases the hourly production for the City's Farms.";
 "technology_description_111"="Increases the hourly production for the City's Sawmills.";
@@ -2472,14 +2464,10 @@
 "npc_sub_city_tax"="Gold Boost";
 "item_type_open"="Open";
 "roulette_vip_play_title"="General Blessing";
-"roulette_play_res_key1"="Effect：Remove 1 low quality item from the Wheel of Fortune.
-Quantity: {0:S}";
-"roulette_play_res_key2"="Effect: Remove 2 low quality items from the Wheel of Fortune.
-Quantity: {0:S}";
-"roulette_play_res_key3"="Effect: A high chance to replace an item with X2.
-Quantity: Unlimited";
-"roulette_play_res_key4"="Effect: A high chance to replace X2 with X3.
-Quantity: Unlimited";
+"roulette_play_res_key1"="Effect：Remove 1 low quality item from the Wheel of Fortune. Quantity: {0:S}";
+"roulette_play_res_key2"="Effect: Remove 2 low quality items from the Wheel of Fortune. Quantity: {0:S}";
+"roulette_play_res_key3"="Effect: A high chance to replace an item with X2. Quantity: Unlimited";
+"roulette_play_res_key4"="Effect: A high chance to replace X2 with X3. Quantity: Unlimited";
 "roulette_play_one"="Spin Once";
 "roulette_play_ten"="10 Spins";
 "alliance_reject_tips"="You have rejected the Alliance invitation from {0:S}.";
@@ -2811,10 +2799,7 @@ Quantity: Unlimited";
 "item_description_key1142"="Reduces remaining time on a researching timer by 3 days.";
 "stamina_recovery_tips"="Stamina regenerates by 1 every {0:D} seconds until full.  Stamina will automatically be full in {1:S}.";
 "alliance_apply_button"="Apply";
-"empire_text"="1. During Wartime, players can rally Alliance War and occupy the City of Throne.  There are NPC troops defending the City of Throne upon the first City of Throne Wartime.
-2. If an Alliance occupies the City of Throne and successfully defends it from other Alliances for 3 hours, the Alliance Leader will be entitled the King of the Server.  Meanwhile the Wartime will be ended and the War result will be sent via mail or broadcast to all players in the Server.  Alliance members can send reinforcements to the City of Throne owner during Wartime and the reinforcements capacity is determined by the City of Throne owner's Embassy Level.  
-3. When an Alliance Leader is entitled the King, the City of Throne will enter 3 day Peacetime.  Afterwards, the next round of Wartime will come.
-4. Once King, the Alliance Leader can assign Titles to players by tapping on an allied City or an enemy City.  Each Title has a buff or debuff associated with it.";
+"empire_text"="1. During Wartime, players can rally Alliance War and occupy the City of Throne.  There are NPC troops defending the City of Throne upon the first City of Throne Wartime. 2. If an Alliance occupies the City of Throne and successfully defends it from other Alliances for 3 hours, the Alliance Leader will be entitled the King of the Server.  Meanwhile the Wartime will be ended and the War result will be sent via mail or broadcast to all players in the Server.  Alliance members can send reinforcements to the City of Throne owner during Wartime and the reinforcements capacity is determined by the City of Throne owner's Embassy Level.   3. When an Alliance Leader is entitled the King, the City of Throne will enter 3 day Peacetime.  Afterwards, the next round of Wartime will come. 4. Once King, the Alliance Leader can assign Titles to players by tapping on an allied City or an enemy City.  Each Title has a buff or debuff associated with it.";
 "target_name_tips"="Please input the target player's name.";
 "attack_subcity_victory"="Occupy Success!";
 "occupied_subcity"="Congratulations my Liege, you have successfully occupied the Subordinate City!";
@@ -4682,7 +4667,7 @@ Claims {1:D} Gems per day until expiration";
 "monster_23"="Greedy Goblin";
 "monster_description_23"="A goblin carrying inexplicable precious treasures.";
 "kindom_war_time"="Wartime Countdown";
-"system_announcement_king4_client"="#8C4820The King #n#3C64A0{0:S}#n assigned #3C64A0{1:S}#n the Title #8C4820{2:S}#n!";
+"system_announcement_king4_client"="#8C4820The King #n#3C64A0{0:S}#n assigned #3C64A0{1:S}#n the Title #8C4820{2:S}#n!";
 "share_tips"="Please add a friend or join an Alliance first!";
 "store_left_time"="{0:S} day(s) left";
 "store_left_time2"="You can claim {0:S} Gems everyday for {1:S} day(s).";
@@ -6728,9 +6713,9 @@ NOTICE: You will not receive any rewards if you quit the Alliance or join a new 
 "share_some_to_chat"="Share {0:S} with:";
 "equipment_detail_title"="Equipment Detail";
 "equipment_refine_detail_title"="About Equipment Refining";
-"equipment_refine_detail_text"="1. The Equipment can be refined with Gold and Refining Stones to get multiple attributes of random types.  Refining does not affect the basic attributes or star attributes. 
-2. For each refining, you can choose to maintain or replace.  You can also use Gems to lock a type of attributes so that it will no longer change.
-3. The attribute will turn to purple when it reaches 50% to 69% of the upper limit, turn to orange when it reaches 70% to 84%, and turn to gold when it reaches 85% or more.  You can check/ uncheck the color and attribute options to show/ hide notification.
+"equipment_refine_detail_text"="1. The Equipment can be refined with Gold and Refining Stones to get multiple attributes of random types.  Refining does not affect the basic attributes or star attributes. 
+2. For each refining, you can choose to maintain or replace.  You can also use Gems to lock a type of attributes so that it will no longer change.
+3. The attribute will turn to purple when it reaches 50% to 69% of the upper limit, turn to orange when it reaches 70% to 84%, and turn to gold when it reaches 85% or more.  You can check/ uncheck the color and attribute options to show/ hide notification.
 4. Each type of Equipment can be refined to a certain attribute value cap and the following types of attributes:";
 "item_name_key1698"="Chinese Valentine's Day Decoration (3 Day)";
 "item_name_key1699"="Chinese Valentine's Day Decoration (7 Day)";
@@ -8768,8 +8753,8 @@ March Tower Amount: {0}.  Occupy it to increase all the allies' march speed to M
 2. A Dragon can be fed to increase EXP to level up.  The higher a Dragon levels up, the more attributes and power.
 3. A Dragon can get refining attributes by the refining feature.
 4. You can activate the corresponding dragon decorations when a Sacred Dragon in Dragon Cliff reaches level 6 and level 10.  Dragon decorations cannot be used at the same time with Wings or other types of decorations.";
-"dragon_detail2"="1. Refining a Dragon costs Gems and Refining Stones.  Locking an attribute costs Dragon Crystals.
-2. The attribute will turn to purple when it reaches 50% to 69% of the upper limit, turn to orange when it reaches 70% to 84%, and turn to gold when it reaches 85% or more.  You can check/ uncheck the color and attribute options to show/ hide notification.
+"dragon_detail2"="1. Refining a Dragon costs Gems and Refining Stones.  Locking an attribute costs Dragon Crystals.
+2. The attribute will turn to purple when it reaches 50% to 69% of the upper limit, turn to orange when it reaches 70% to 84%, and turn to gold when it reaches 85% or more.  You can check/ uncheck the color and attribute options to show/ hide notification.
 3. A Dragon can get the following types of refining attributes:";
 "dragon_refine_title"="Dragon Refining Detail";
 "arthall_tips2"="Go recruit Generals!";
@@ -9741,8 +9726,8 @@ Alliance Scores Rule: An Alliance's scores are determined by the amount of Hydra
 "alliance_invitation_tips2"="The Alliance is already full!";
 "emblem_baptize"="Badge Refine";
 "general_equipment_text_1"="Equipped General:";
-"dragon_detail2_1"="1. You can use either Gems and Refining Stones, or Badges and Refining Stones to refine your dragons.  Use Dragon Crystals to lock refining attributes.
-2. The attribute will turn to purple when it reaches 50% to 69% of the upper limit, turn to orange when it reaches 70% to 84%, and turn to gold when it reaches 85% or more.  You can check/ uncheck the color and attribute options to show/ hide notification.
+"dragon_detail2_1"="1. You can use either Gems and Refining Stones, or Badges and Refining Stones to refine your dragons.  Use Dragon Crystals to lock refining attributes.
+2. The attribute will turn to purple when it reaches 50% to 69% of the upper limit, turn to orange when it reaches 70% to 84%, and turn to gold when it reaches 85% or more.  You can check/ uncheck the color and attribute options to show/ hide notification.
 3. A Dragon can get the following types of refining attributes:";
 "item_name_key2666"="Lv1 Rebirth";
 "item_name_key2667"="Lv2 Rebirth";
@@ -10790,13 +10775,13 @@ During the event time, an Alliance can summon a Senior Garuda carrying treasures
 "hero_feature_battle55"="Dacian Wars";
 "hero_feature_battle56"="Manipulation";
 "hero_feature_battle57"="Battle of Kawanakajima";
-"hero_feature_battle58"="Battle on the Ice";
+"hero_feature_battle58"="Battle on the Ice";
 "hero_feature_battle59"="Battle of Bradfield";
-"hero_feature_battle60"="Battle of Bukhara";
+"hero_feature_battle60"="Battle of Bukhara";
 "hero_feature_battle61"="Siege of Petersburg";
 "hero_feature_battle62"="Lý–Song War";
-"hero_feature_battle63"="Battle of Arsuf";
-"hero_feature_battle64"="Battle of the Alamo";
+"hero_feature_battle63"="Battle of Arsuf";
+"hero_feature_battle64"="Battle of the Alamo";
 "item_name_key2801"="Historic City Key (Rostock)";
 "item_name_key2802"="Historic City Key (Milan)";
 "item_name_key2803"="Historic City Key (Tombouctou)";
@@ -11426,7 +11411,7 @@ During the event time, an Alliance can summon a Senior Garuda carrying treasures
 "dwarf_apple_vow"="Make a Wish";
 "dwarf_apple_own"="Owned:";
 "dwarf_apple_get"="Possible Rewards:";
-"dwarf_apple_talk1"="You can exchange wishing coins for lucky apples, it is a good deal, right?";
+"dwarf_apple_talk1"="You can exchange wishing coins for lucky apples, it is a good deal, right?";
 "dwarf_apple_talk2"="Did you bring them?  The glittering wishing coins!";
 "dwarf_apple_talk3"="Pies!  Pies!  The delicious pies are ready.  Do you want a bite?";
 "dwarf_apple_talk4"="Choose a lucky apple.  I have a hunch that you would have good luck.";
@@ -11483,7 +11468,7 @@ During the event time, an Alliance can summon a Senior Garuda carrying treasures
 "technology_name_333"="Ground Troop HP";
 "technology_name_334"="Ranged Troop HP";
 "technology_name_335"="Ground Troop Plate Armor";
-"technology_name_336"="Ranged Troop Mail Armor";
+"technology_name_336"="Ranged Troop Mail Armor";
 "technology_name_337"="Raid";
 "technology_name_338"="Mounted Troop HP";
 "technology_name_339"="Siege Machine Structure";
@@ -11659,26 +11644,26 @@ During the event time, an Alliance can summon a Senior Garuda carrying treasures
 "hero_name186"="Robert Guiscard";
 "item_name_key2890"="Glory Knight";
 "item_name_key2891"="Conqueror";
-"item_name_key2892"="Great King";
-"item_name_key2893"="Queen of Northern Europe";
+"item_name_key2892"="Great King";
+"item_name_key2893"="Queen of Northern Europe";
 "item_name_key2894"="National Warrior";
-"item_name_key2895"="Roman Emperor";
+"item_name_key2895"="Roman Emperor";
 "item_name_key2896"="Anaconda Plan";
 "item_name_key2897"="Loyalty to the Country";
 "item_name_key2898"="Tactical Samurai";
-"item_name_key2899"="Independence Hero";
+"item_name_key2899"="Independence Hero";
 "item_name_key2900"="Leader of Normans";
 "hero_feature_battle80"="Paladin";
 "hero_feature_battle81"="Battle of Zama";
 "hero_feature_battle82"="Battle of Edington";
-"hero_feature_battle83"="Uncrowned Queen";
+"hero_feature_battle83"="Uncrowned Queen";
 "hero_feature_battle84"="The Poem of the Cid";
 "hero_feature_battle85"="Battle of the Milvian Bridge";
 "hero_feature_battle86"="Mexican-American War";
 "hero_feature_battle87"="Battle of Yancheng";
 "hero_feature_battle88"="Shichisei Hōkoku";
 "hero_feature_battle89"="Siege of Krujë";
-"hero_feature_battle90"="Battle of Dyrrhachium";
+"hero_feature_battle90"="Battle of Dyrrhachium";
 "general_description176"="The first paladin in history, who had the impeccable virtue.";
 "general_description177"="The commander and politician of Ancient Rome.";
 "general_description178"="King of Wessex in the Anglo-Saxon England Period, known as the "King of the Anglo-Saxons".";
@@ -11791,7 +11776,7 @@ During the event time, an Alliance can summon a Senior Garuda carrying treasures
 "newriddle03_guide_text5"="My Liege, you can resolve a certain amount of the puzzles to claim the chests!";
 "riddle_mainland_region1"="Gobi Desert";
 "riddle_mainland_region2"="Northern Icefield";
-"riddle_mainland_region3"="River Plain";
+"riddle_mainland_region3"="River Plain";
 "riddle_mainland_region4"="Wetland";
 "riddle_mainland_region5"="Black Forest";
 "riddle_mainland_region6"="Golden Beach";
@@ -11852,7 +11837,7 @@ During the event time, an Alliance can summon a Senior Garuda carrying treasures
 "item_description_key2918"="Most Valuable Activity Package for the most active Monarch!";
 "active_package_tips1"="You triggered the super value activity package!  Please go check it.";
 "active_package_tips2"="This package can only be purchased when your activity reaches a specified value!";
-"active_package_tips3"="The package is sold out for today, please come back tomorrow!";
+"active_package_tips3"="The package is sold out for today, please come back tomorrow!";
 "item_name_key2919"="Double Down Package Coupon";
 "item_description_key2919"="Mysterious double down package coupon.  Use it to get double item rewards when purchasing packages! (Valid for 7 days)";
 "double_coupon_text"="1. The Double Down Package Coupon is valid for {0} days. 
@@ -11904,7 +11889,7 @@ During the event time, an Alliance can summon a Senior Garuda carrying treasures
 "new_triggle_story7"="I will arrive soon!";
 "new_triggle_tips1"="General Details";
 "new_triggle_button"="Return";
-"hero_name187"="Captain of Oath Guard";
+"hero_name187"="Captain of Oath Guard";
 "hero_name188"="General of the Household";
 "hero_name189"="Ashigaru Taisho";
 "hero_name190"="Chief Of Naegeumwi";
@@ -20909,7 +20894,7 @@ to earn rich rewards";
 "item_description_key4211"="A stamp that contains the power of Aurochs. Collect 3 kinds of stamps in the Visit to Ancient Babylon event to explore the Hanging Gardens. (The item will disappear upon the end of the event.)";
 "item_description_key4212"="A stamp that contains the power of Sirrush. Collect 3 kinds of stamps in the Visit to Ancient Babylon event to explore the Hanging Gardens. (The item will disappear upon the end of the event.)";
 "item_description_key4213"="A stamp that contains the power of Lion. Collect 3 kinds of stamps in the Visit to Ancient Babylon event to explore the Hanging Gardens. (The item will disappear upon the end of the event.)";
-"item_description_key4210"="A chest blessed by Ishtar for delivering letters and gifts.  Use it to send one kind of your Stamps to another player along with other gifts from the chest. (The item will disappear upon the end of the event.)";
+"item_description_key4210"="A chest blessed by Ishtar for delivering letters and gifts.  Use it to send one kind of your Stamps to another player along with other gifts from the chest. (The item will disappear upon the end of the event.)";
 "babylon_to_use"="Go Use";
 "item_description_key4214"="A rose from the Hanging Gardens that can be sent to another player. (The item will disappear upon the end of the event.)";
 "babylon_gift_from"="Ishtar Chest from {0}";
@@ -22281,13 +22266,13 @@ Deals damage equal to {0} of the target's maximum HP when attacking in this leve
 One day, a mysterious slate inscribed with Maya hieroglyphs was found in Monarch's city.
 By deciphering the words on that slate, the Monarch was able to enter Mayan ruins to explore the secrets of that ancient civilization and get the Mayan Gold hidden under the pyramids.";
 "rogue_tips4"="1. Revelation of Maya event lasts for 7 days.
-2. During the event time, players can select troops and dispel fogs to explore levels.  Defeat target of a level to enter the next level through Portal.  Each exploration contains 20 levels.  Players can get Revelation Chests by completing certain levels.
-3. Each player has up to 5 troop slots.  Once all troops are saved, they cannot be changed for this round of exploring unless reset to Level 1.
-4. Only leading Generals' basic attributes, skills, specialties and ascending attributes take effect.  Generals still need to equip dragon to activate corresponding buffs, but attributes of equipped Dragons will not take effect.
-5. The remaining troops in your troop slots will be retained after each battle.  Battles in the event will not affect your own troops outside the event.
+2. During the event time, players can select troops and dispel fogs to explore levels.  Defeat target of a level to enter the next level through Portal.  Each exploration contains 20 levels.  Players can get Revelation Chests by completing certain levels.
+3. Each player has up to 5 troop slots.  Once all troops are saved, they cannot be changed for this round of exploring unless reset to Level 1.
+4. Only leading Generals' basic attributes, skills, specialties and ascending attributes take effect.  Generals still need to equip dragon to activate corresponding buffs, but attributes of equipped Dragons will not take effect.
+5. The remaining troops in your troop slots will be retained after each battle.  Battles in the event will not affect your own troops outside the event.
 6. All Runes and Buffs in the event will not take effect outside the event except the Revelation Chest.
-7. Participate in the event to earn points for ranking and rewards.  Select troops wisely to earn more points.
-8. Each exploration grants you points for ranking and rewards.  Defeating targets, completing levels, dispelling poisonous fogs and finally surviving troop amount will affect the points gained.  Select troops wisely to earn more points.
+7. Participate in the event to earn points for ranking and rewards.  Select troops wisely to earn more points.
+8. Each exploration grants you points for ranking and rewards.  Defeating targets, completing levels, dispelling poisonous fogs and finally surviving troop amount will affect the points gained.  Select troops wisely to earn more points.
 9. When two or more players have the same point amount, whoever enters the event first ranks first.";
 "rogue_tips5"="Troops saved successfully!";
 "rogue_tips6"="Please defeat Mayan High Priest to claim the chest.";
@@ -22899,7 +22884,7 @@ It wants to pierce your dumb head even more than I do.";
 5. After the event ends, there is another day for players to get more Frostwolf Gold Coins and Snow Eagle Silver Ingots for rewards. During this period, players cannot get more Celebration Points.";
 "anniversary6_text36"="The war in the north has ended, and the grand celebration is about to start on this snowy land!
 North Ocean Trading Company, the trade group formed by merchants from the north, also comes here to participate in this celebration.
-Give them Frostwolf Gold Coins and Snow Eagle Silver Ingots to get rewards in return.  There is also a chance to get Jawzahr Dragon Pattern, which can release the power of Jawzahr!
+Give them Frostwolf Gold Coins and Snow Eagle Silver Ingots to get rewards in return.  There is also a chance to get Jawzahr Dragon Pattern, which can release the power of Jawzahr!
 Top Monarchs in Monarch Point Ranking also have a chance to get Mirror Lake Castle!";
 "anniversary6_text44"="{0} Monarch(s) from all Servers have completed the story reading.";
 "anniversary6_text63"="Celebration Points available for each quest are as follows:";
@@ -23035,8 +23020,8 @@ Top Monarchs in Monarch Point Ranking also have a chance to get Mirror Lake Cast
 "alliance_showdown_shop_text6"="Duel Coin Conversion Countdown: {0}";
 "alliance_showdown_shop_text7"="Purchase Chance(s): {0}";
 "alliance_showdown_shop_text9"="Purchase Chance resets in: {0}";
-"alliance_showdown_shop_rule"="1. Use Duel Coins to redeem rewards in Alliance Duel Shop.  Duel Coins can be earned by participating in Alliance Duel and upgrading Alliance Duel Level.
-2. The types and purchase chances of items available in Alliance Duel Shop are determined by Alliance season tier.  More items and purchase chances unlock at higher season tier.
+"alliance_showdown_shop_rule"="1. Use Duel Coins to redeem rewards in Alliance Duel Shop.  Duel Coins can be earned by participating in Alliance Duel and upgrading Alliance Duel Level.
+2. The types and purchase chances of items available in Alliance Duel Shop are determined by Alliance season tier.  More items and purchase chances unlock at higher season tier.
 3. Alliance Duel Shop items refresh at the beginning of each season.";
 "dress_castle_michel_2"="Saint Michael Glory Chest";
 "castle_michel_description_2"="Open it to select one from Saint Michael Castle (15 Day), Violet (30 day) and Dawn of Civilization Glory Chest.";
@@ -23225,10 +23210,10 @@ Top Monarchs in Monarch Point Ranking also have a chance to get Mirror Lake Cast
 "discount_txt_20"="Get it from Voucher Package. Use it to buy items in Discount Store.";
 "discount_txt_21"="Voucher Chest";
 "discount_txt_22"="Vouchers will turn into Voucher Chests after the event ends. Open the chest to receive rare items.";
-"discount_txt_23"="1. During the event time, players can buy items in Discount Store with Vouchers.  Items refresh every day.
-2. Players can get Vouchers from Resource Spots, Monsters and Voucher Package.  There is an upper limit on the amount of Vouchers players can obtain from Resource Spots and Monsters every day.
-3. The price of items in Discount Store is the original price.  Players can get Discount Coupons by sharing bargain link or completing discount quests to lower the price of items.  The price of each item can be reduced up to 3 times.
-4. The price of items will be reset to the original price on the next day.  And Discount Coupons will disappear with server reset.  Please use them in time.  Vouchers will turn into Voucher Chests after the event ends.  Open the chest to receive rare items.";
+"discount_txt_23"="1. During the event time, players can buy items in Discount Store with Vouchers.  Items refresh every day.
+2. Players can get Vouchers from Resource Spots, Monsters and Voucher Package.  There is an upper limit on the amount of Vouchers players can obtain from Resource Spots and Monsters every day.
+3. The price of items in Discount Store is the original price.  Players can get Discount Coupons by sharing bargain link or completing discount quests to lower the price of items.  The price of each item can be reduced up to 3 times.
+4. The price of items will be reset to the original price on the next day.  And Discount Coupons will disappear with server reset.  Please use them in time.  Vouchers will turn into Voucher Chests after the event ends.  Open the chest to receive rare items.";
 "system_mail_title310"="Daily Donation Ranking";
 "system_mail_text310"="<list>{'title':['need_rank','rank_name','resource_guild_honor'],'listType':0,'content':'Players who earn at least {#number0} Alliance Honor by donating to Alliance Science or Alliance Skill and rank top {#number1} every day can receive speedups!','list':{#list}}</list>";
 "system_mail_title311"="Daily Donation Ranking Rewards";
@@ -23778,8 +23763,8 @@ Each scores rewards can only be claimed once during the event time.
 "dress_festival_thanksgiving_details"="You can purchase Thanksgiving Chat Bubble directly, or gain it from special event.";
 "anniversary6_text101"="1. Contents
  
-1.1. The entries must be related to Evony: the King’s Return.  There are two Parts according to the content, and players can make multiple entries and participate in different Parts.
-1.2. Part 1 “Game Art”: Players can design General's Art Image, March Effect, Monarch's Art Image (Inlcuding Monarch Avatar), Civilization Equipment (A whole Equipment Set) and General's Skin.  The works must be logical and conform to Evony game background, and works that meet the conditions will be more likely to be selected.
+1.1. The entries must be related to Evony: the King’s Return.  There are two Parts according to the content, and players can make multiple entries and participate in different Parts.
+1.2. Part 1 “Game Art”: Players can design General's Art Image, March Effect, Monarch's Art Image (Inlcuding Monarch Avatar), Civilization Equipment (A whole Equipment Set) and General's Skin.  The works must be logical and conform to Evony game background, and works that meet the conditions will be more likely to be selected.
 1.3. Part 2: “Photography, Visual Stories, Comics” In this part, players can cosplay their favorite Generals, draw comics to share their own stories, and build their favorite castles.
  
  
@@ -23791,14 +23776,14 @@ Entries should be submitted as JPG or PNG files, the image ratio should be set t
 3. Event Time
  
 Collection of Works Stage: 2022-11-01 to 2022-11-29.
-Participants can submit their works with titles to the email evonycommunity@topgamesinc.com.  Each work will take 3-5 working days for review, and the reward will be sent after December 1st, 2022.  Participants will not be able to submit their works after the Collection of Works Stage ends. By submitting, authors agree to the terms of entry in this agreement.
+Participants can submit their works with titles to the email evonycommunity@topgamesinc.com.  Each work will take 3-5 working days for review, and the reward will be sent after December 1st, 2022.  Participants will not be able to submit their works after the Collection of Works Stage ends. By submitting, authors agree to the terms of entry in this agreement.
  
 Voting for Works Stage: 2022-12-01 to 2022-12-12.
-All players can enter the Civilization Fantasy event through the Anniversary event, and can vote in Creative Hall.  All players at Keep Level 15 or above can receive 3 Voting Tokens every day.  Players can get rewards from each vote.
+All players can enter the Civilization Fantasy event through the Anniversary event, and can vote in Creative Hall.  All players at Keep Level 15 or above can receive 3 Voting Tokens every day.  Players can get rewards from each vote.
  
 Ranking Announcement Stage: 2022-12-13 to 2022-12-31.
-In Part 1, each Voting Token will be recorded as 2 votes.  In Part 2, each Voting Token will be recorded as 1 vote.  Participants will be ranked based on the number of votes they receive. (Participants of both Parts will be ranked together.)
-All players can view ranking during Ranking Announcement Stage.  And ranking rewards will be sent via Mail.
+In Part 1, each Voting Token will be recorded as 2 votes.  In Part 2, each Voting Token will be recorded as 1 vote.  Participants will be ranked based on the number of votes they receive. (Participants of both Parts will be ranked together.)
+All players can view ranking during Ranking Announcement Stage.  And ranking rewards will be sent via Mail.
  
 Exhibition of Works Stage: 2023-1-1 to 2023-1-15.
 The works in Creative Hall will be rearranged according to players' ranking, and players can continue to enjoy the excellent works during this stage.
@@ -23823,25 +23808,25 @@ The works in Creative Hall will be rearranged according to players' ranking, and
 6. A participant can submit more than one work, and a participant will be ranked based on the total number of votes for all his works.
  
  
-7. Unawarded players whose entries have passed the review and whose entry information is valid will enter the Lucky Creator list.  The Organizer will randomly select one player from the list to award Lucky Creator Rewards during the awarding stage.
+7. Unawarded players whose entries have passed the review and whose entry information is valid will enter the Lucky Creator list.  The Organizer will randomly select one player from the list to award Lucky Creator Rewards during the awarding stage.
  
  
 8. Intellectual Property Rights
  
-8.1. The rights and interests related to the content of the game Evony contained in the entries belong to the Organizer.  The Organizer authorizes the participant  to use only within the competition, any other use is considered unauthorized and the authorization is not transferable.
-8.2. Once an entry is submitted, regardless of whether it is awarded or not, the copyright of the entry, if not already  belonging to, is transferred to the Organizer, and the author of the entry may use the entry only if the Organizer authorizes in advance of the use.  The Organizer has the sole and exclusive right to make changes to the entries.
-8.3. Participants warrant and confirm that their uploaded works do not infringe any intellectual property rights or other rights of any third party.  If there is any cooperation in the creation of the work, it is necessary to ensure that the co-authors reach an agreement in writing before submitting and submit the written agreement with the entry.
+8.1. The rights and interests related to the content of the game Evony contained in the entries belong to the Organizer.  The Organizer authorizes the participant  to use only within the competition, any other use is considered unauthorized and the authorization is not transferable.
+8.2. Once an entry is submitted, regardless of whether it is awarded or not, the copyright of the entry, if not already  belonging to, is transferred to the Organizer, and the author of the entry may use the entry only if the Organizer authorizes in advance of the use.  The Organizer has the sole and exclusive right to make changes to the entries.
+8.3. Participants warrant and confirm that their uploaded works do not infringe any intellectual property rights or other rights of any third party.  If there is any cooperation in the creation of the work, it is necessary to ensure that the co-authors reach an agreement in writing before submitting and submit the written agreement with the entry.
  
  
 9. Breach of Contract
  
-9.1. The rules of this competition are offers, and the participant's participation in submissions in accordance with these rules is a commitment.  When the commitment is made, both parties form a contract with the competition rules as the content of rights and obligations.
+9.1. The rules of this competition are offers, and the participant's participation in submissions in accordance with these rules is a commitment.  When the commitment is made, both parties form a contract with the competition rules as the content of rights and obligations.
 9.2. If the entry involves infringement or violation of the law and leads to loss, the loss shall be borne by the participant, and the Organizer reserves the right to pursue if the Organizer is affected."
 
 10. The Organizer reserves all rights of final interpretation for the event.
 
 
-11. Copyright transfer.  The author assigns to Top Games Inc all rights under copyright that may exist in and to the Work, including but not limited to the right to publish, republish, transmit, sell, distribute and otherwise use the Work and the material contained therein in electronic and print editions of the entry and in derivative works throughout the world, in all languages and in all media of expression now known or later developed, and to license or permit others to do so.  Reproduction, posting, transmission or other distribution or use of the Work or any material contained therein, in any medium as permitted hereunder, requires a citation to the Work and an appropriate credit to Top Games Inc, suitable in form and content.";
+11. Copyright transfer.  The author assigns to Top Games Inc all rights under copyright that may exist in and to the Work, including but not limited to the right to publish, republish, transmit, sell, distribute and otherwise use the Work and the material contained therein in electronic and print editions of the entry and in derivative works throughout the world, in all languages and in all media of expression now known or later developed, and to license or permit others to do so.  Reproduction, posting, transmission or other distribution or use of the Work or any material contained therein, in any medium as permitted hereunder, requires a citation to the Work and an appropriate credit to Top Games Inc, suitable in form and content.";
 "packet_continuous_surprise_unlock"="Unlock in {0} day(s)";
 "general_history267"="The North Ocean Principality was established to strengthen the frontiers and resist the invasion of Northern Tribes.
 
@@ -24309,7 +24294,7 @@ There will be rich rewards in the competition. The All-Star Glorious Champion wi
 "anniversary_activity_title6"="The Sixth Anniversary";
 "item_name_key4511"="Galaxy Coin";
 "alliance_activities_tips28"="Are you sure you want to delete this quest?";
-"packet_anniversary_text3"="During the event time, 5 package tiers every day include massive resources and Subordinate City Clues in them.  There is also a chance to receive the new Epic Historic General Ludwig from the 5th tier packages, as well as Lv7 Premium Gear Chest!";
+"packet_anniversary_text3"="During the event time, 5 package tiers every day include massive resources and Subordinate City Clues in them.  There is also a chance to receive the new Epic Historic General Ludwig from the 5th tier packages, as well as Lv7 Premium Gear Chest!";
 "beauty_join_text1"="Use Bavarian Floral Basket to unlock.";
 "beauty_system_item_1"="Bavarian Flower";
 "beauty_system_item_2"="Bavarian Floral Basket";
@@ -25739,19 +25724,7 @@ Alliances with the same rank in the Semifinals of top 49 - 64 will be matched wi
 "leagueBOSS_8"="Unlock at Alliance Activity {0}";
 "leagueBOSS_1"="Alliance Boss";
 "leagueBOSS_2"="Defeat Alliance Boss to earn awesome rewards!";
-"leagueBOSS_3"="Event Rules:
-
-1. Players who are in an Alliance and Keep Level {0} or above can participate in the event.
-
-2. Alliance Boss event opens once per week and the Alliance R4 and R5 can select and summon an unlocked Alliance Boss. Increase the Alliance Activity to unlock higher level Alliance Bosses.
-
-3. If you join a new Alliance during the event, you will not be able to participate in the event of this new Alliance, but your progress in your original Alliance will be preserved until the end of the event.
-
-4. The event ranking contains players from several Servers. Players and Alliances will be ranked based on the highest personal damage and Alliance damage and receive ranking rewards at the end of the event.
-
-5. During the event, you can claim Personal Rewards based on the accumulation of your own damage points and Alliance Rewards based on the accumulation of your Alliance damage points. You can claim rewards of the corresponding damage in the event rewards page.
-
-6. Please claim Personal Rewards and Alliance Rewards before the end of the event.";
+"leagueBOSS_3"="Event Rules: 1. Players who are in an Alliance and Keep Level {0} or above can participate in the event. 2. Alliance Boss event opens once per week and the Alliance R4 and R5 can select and summon an unlocked Alliance Boss. Increase the Alliance Activity to unlock higher level Alliance Bosses. 3. If you join a new Alliance during the event, you will not be able to participate in the event of this new Alliance, but your progress in your original Alliance will be preserved until the end of the event. 4. The event ranking contains players from several Servers. Players and Alliances will be ranked based on the highest personal damage and Alliance damage and receive ranking rewards at the end of the event. 5. During the event, you can claim Personal Rewards based on the accumulation of your own damage points and Alliance Rewards based on the accumulation of your Alliance damage points. You can claim rewards of the corresponding damage in the event rewards page. 6. Please claim Personal Rewards and Alliance Rewards before the end of the event.";
 "leagueBOSS_10"="Only R5 and R4 can select and summon Alliance Bosses.";
 "leagueBOSS_11"="Lv{0}";
 "leagueBOSS_13"="Alliance Boss HP:";
@@ -25804,11 +25777,7 @@ Alliances with the same rank in the Semifinals of top 49 - 64 will be matched wi
 "Godzilla_10_1"="Crimson Roar";
 "Godzilla_11_1"="Golden Prestige";
 "Godzilla_12_1"="Rose Chest";
-"Godzilla_13_1"="Dr. Genshiro Shiragami splices his daughter's DNA with that of a rose and Godzilla, resulting in the creation of a hybrid mutant he christens Biollante.
-
-Biollante can attack with corrosive sap and wield vines that end in sharp thorns. It can also move rather quickly for its immense size!
-
-Biollante is coming. Deal damage to its and earn rewards!";
+"Godzilla_13_1"="Dr. Genshiro Shiragami splices his daughter's DNA with that of a rose and Godzilla, resulting in the creation of a hybrid mutant he christens Biollante. Biollante can attack with corrosive sap and wield vines that end in sharp thorns. It can also move rather quickly for its immense size! Biollante is coming. Deal damage to its and earn rewards!";
 "Godzilla_14_1"="King Ghidorah, a giant golden-scaled dragon with three heads, can fire beams to destroy their enemy!";
 "Godzilla_15_1"="King Ghidogah Invasion";
 "Godzilla_16_1"="King Ghidorah's Token";
@@ -25878,10 +25847,7 @@ Biollante is coming. Deal damage to its and earn rewards!";
 "BP_ui_description05"="Get up to the following rewards by unlocking Alliance Duel Max Level and privileges.";
 "item_description_key4326_6"="Participate in any round of Season 6 Battle of Chalons and the Alliance enters top 8 in the Major League to unlock.";
 "item_description_key4326_7"="Participate in any round of Season 6 Battle of Chalons and the Alliance enters top 9-100 in the Major League to unlock.";
-"all_star_ranking_text5"="1. The Constantinople Ultimate War Season is divided into several continents based on server, and each continent will have its own separate rankings.
-2. To be eligible for the continent personal ranking, a player must be in the Alliance for more than 5 days before the end of the 4th round and his Alliance must be top {0} in Alliance Round Ranking.
-3. The continent personal season ranking will be determined based on the accumulated scores from the completed rounds.
-4. The top {1} players in each continent's Constantinople Ultimate War Season Ranking will unlock the title of Glory, Invincible Hero, at the end of the season!";
+"all_star_ranking_text5"="1. The Constantinople Ultimate War Season is divided into several continents based on server, and each continent will have its own separate rankings. 2. To be eligible for the continent personal ranking, a player must be in the Alliance for more than 5 days before the end of the 4th round and his Alliance must be top {0} in Alliance Round Ranking. 3. The continent personal season ranking will be determined based on the accumulated scores from the completed rounds. 4. The top {1} players in each continent's Constantinople Ultimate War Season Ranking will unlock the title of Glory, Invincible Hero, at the end of the season!";
 "dress_festival_godzilla_details"="You can purchase Flame Ring Decoration by Gems, or gain it from special event.";
 "item_name_key4735"="Flame Ring Decoration (3 Day)";
 "item_name_key4736"="Flame Ring Decoration (7 Day)";
@@ -25891,16 +25857,7 @@ Biollante is coming. Deal damage to its and earn rewards!";
 "item_description_key4737"="Use it to gain 30 days of Flame Ring Decoration.";
 "alliance_showdown_shop_text14"="Alliance Duel Shop items refresh at the beginning of each season. More items and purchase chances unlock at higher season tiers!";
 "heroesback_text24"="You have earned {1} for {2} time(s) from {0} wish(es).";
-"growth_activity_text_3"="1. During the Revelry Carnival event time, players can use Parade Masks and Party Invitations to upgrade Celebration Level, and receive rewards for each upgade.
-2. When the Celebration Level is upgraded to 5, 10, 15 and 20, the Celebration Puzzle pieces will be activated and advanced rewards redeeming will be unlocked at the same time.
-3. Players can get Parade Masks from Resource Spots and Monsters. Use Parade Masks to upgrade Celebration Level and earn Celebration Badge.
-4. Players can get Party Invitations from Revelry Carnival Package and upgrading Celebration Level. Use Party Invitations to upgrade Celebration Level and earn Emerald Brooch.
-5. Players can use Celebration Badges and Emerald Brooches to redeem Castle Decoration, Generals and other rewards.
-6. Players can get Parade Masks and Party Invitations in the following ways:
-- Get up to {1} Parade Masks from Resource Spots.
-- Get up to {2} Parade Masks from Monsters.
-- Get up to 50 Party Invitations from Gather Troops Quests and King's Path Quests.
-7. Parade Masks, Party Invitations, Celebration Badges and Emerald Brooches will be removed at the end of the event. Please use them in time!";
+"growth_activity_text_3"="1. During the Revelry Carnival event time, players can use Parade Masks and Party Invitations to upgrade Celebration Level, and receive rewards for each upgade. 2. When the Celebration Level is upgraded to 5, 10, 15 and 20, the Celebration Puzzle pieces will be activated and advanced rewards redeeming will be unlocked at the same time. 3. Players can get Parade Masks from Resource Spots and Monsters. Use Parade Masks to upgrade Celebration Level and earn Celebration Badge. 4. Players can get Party Invitations from Revelry Carnival Package and upgrading Celebration Level. Use Party Invitations to upgrade Celebration Level and earn Emerald Brooch. 5. Players can use Celebration Badges and Emerald Brooches to redeem Castle Decoration, Generals and other rewards. 6. Players can get Parade Masks and Party Invitations in the following ways: - Get up to {1} Parade Masks from Resource Spots. - Get up to {2} Parade Masks from Monsters. - Get up to 50 Party Invitations from Gather Troops Quests and King's Path Quests. 7. Parade Masks, Party Invitations, Celebration Badges and Emerald Brooches will be removed at the end of the event. Please use them in time!";
 "alliance_invitational_8"="Magic Eye Ⅰ";
 "alliance_invitational_9"="Magic Eye Ⅱ";
 "alliance_invitational_10"="Magic Eye Ⅲ";
