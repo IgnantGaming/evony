@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>March Tracker</title>
+    <script>
+      // Define a function to add a new row to the table
+      function addRow() {
+        // Get a reference to the table
+        var table = document.getElementById("march-table");
+
+        // Create a new row
+        var row = table.insertRow(-1);
+
+        // Create the cells for the row
+        var nameCell = row.insertCell(0);
+        var sizeCell = row.insertCell(1);
+        var typeCell = row.insertCell(2);
+        var comCell = row.insertCell(3);
+        var reinOCell = row.insertCell(3);
+        var reinTCell = row.insertCell(3);
+        var reinThCell = row.insertCell(3);
+
+        // Add the input fields to the cells
+        nameCell.innerHTML = '<input type="text" name="name">';
+        sizeCell.innerHTML = '<input type="number" name="size">';
+        typeCell.innerHTML = `
+          <select name="type">
+            <option value="infantry">Infantry</option>
+            <option value="cavalry">Cavalry</option>
+            <option value="archer">Archer</option>
+            <option value="siege">Siege</option>
+          </select>
+        `;
+        comCell.innerHTML  = '<input type="text" name="comment">';
+        reinOCell.innerHTML  = '<input type="text" name="reinOne">';
+        reinTCell.innerHTML  = '<input type="text" name="reinTwo">';
+        reinThCell.innerHTML  = '<input type="text" name="reinThr">';
+      }
+
+      // Define a function to calculate the total march size
+      function calculateTotal() {
+        // Get all the size inputs
+        var sizeInputs = document.getElementsByName("size");
+
+        // Initialize the total to 0
+        var total = 0;
+
+        // Loop through the size inputs and add their values to the total
+        for (var i = 0; i < sizeInputs.length; i++) {
+          total += parseInt(sizeInputs[i].value);
+        }
+
+        // Set the total on the page
+        document.getElementById("total").innerHTML = total;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>March Tracker</h1>
+
+    <table id="march-table">
+      <tr>
+        <th>Player Name</th>
+        <th>March Size</th>
+        <th>March Type</th>
+        <th>Comment</th>
+        <th>Rein</th>
+        <th>Rein</th>
+        <th>Rein</th>
+      </tr>
+      <tr>
+        <td><input type="text" name="name"></td>
+        <td><input type="number" name="size"></td>
+        <td>
+          <select name="type">
+            <option value="infantry">Infantry</option>
+            <option value="cavalry">Cavalry</option>
+            <option value="archer">Archer</option>
+            <option value="siege">Siege</option>
+          </select>
+        </td>
+        <td><input type="text" name="comment"></td>
+        <td><input type="text" name="reinOne"></td>
+        <td><input type="text" name="reinTwo"></td>
+        <td><input type="text" name="reinThr"></td>
+      </tr>
+    </table>
+
+    <button onclick="addRow()">+</button>
+
+    <p>Total Troop Count: <span id="total">0</span></p>
+
+    <button onclick="calculateTotal()">Calculate Total</button>
+  </body>
+</html>
