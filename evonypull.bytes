@@ -1231,8 +1231,7 @@
 "monster4_dialogue"="Once you die, you'll be just like me!";
 "monster5_dialogue"="Your life essence will power me, making me stronger until I become a god!";
 "monster_drop"="Killing the Monster gives you a chance to get awesome rewards.";
-"roulette_play_tips"="1. Login every day to receive {0:D} Chips.  When your Chips reach the capacity {1:D}, you will not get login Chips anymore.
-2. You can select General Blessing feature when you meet the VIP Level Requirement.";
+"roulette_play_tips"="1. Login every day to receive {0:D} Chips.  When your Chips reach the capacity {1:D}, you will not get login Chips anymore. 2. You can select General Blessing feature when you meet the VIP Level Requirement.";
 "roulette_lack_credits_tips"="Insufficient Chips.  Do you want to buy more?";
 "title_adm"="Administration";
 "title_army"="Military";
@@ -1298,13 +1297,8 @@
 "vip_add_time"="More VIP Time";
 "vip_point"="Requires {0:D} VIP Points";
 "rotaty_table"="Wheel of Fortune";
-"resource_point_des1"="1. Your Troops will immediately begin gathering {0:S} once they have occupied this spot.  When your Troop's Load capacity is met, they will march back to your city to deliver what was gathered.  You can also manually recall your Troops anytime in the resources gathering process.
-2. A higher level Resources Spot provides faster gathering speed and more resources for your Troops to gather.
-3. The Resources Spot also provides a chance of uncovering materials for Equipment crafting.  A Resources Gathering Report will be sent to your Mailbox when your troops return to the City.
-4. If the Resources Spot is owned by another player, you can evict the player by defeating their encamped army.";
-"resource_point_des5"="1. Your Troops will immediately begin gathering Gems once they have occupied this spot.  When your Troop's Load capacity is met, they will march back to your city to deliver what was gathered.  You can also manually recall your Troops anytime in the Gems gathering process.
-2. A higher level Gems Spot provides more Gems for your Troops to gather.
-3 If the Gems Spot is owned by another player, you can evict the player by defeating their encamped army.";
+"resource_point_des1"="1. Your Troops will immediately begin gathering {0:S} once they have occupied this spot.  When your Troop's Load capacity is met, they will march back to your city to deliver what was gathered.  You can also manually recall your Troops anytime in the resources gathering process. 2. A higher level Resources Spot provides faster gathering speed and more resources for your Troops to gather. 3. The Resources Spot also provides a chance of uncovering materials for Equipment crafting.  A Resources Gathering Report will be sent to your Mailbox when your troops return to the City. 4. If the Resources Spot is owned by another player, you can evict the player by defeating their encamped army.";
+"resource_point_des5"="1. Your Troops will immediately begin gathering Gems once they have occupied this spot.  When your Troop's Load capacity is met, they will march back to your city to deliver what was gathered.  You can also manually recall your Troops anytime in the Gems gathering process. 2. A higher level Gems Spot provides more Gems for your Troops to gather. 3 If the Gems Spot is owned by another player, you can evict the player by defeating their encamped army.";
 "speedup_save_time"="Time to Reduce:";
 "speedup_left_time"="Remaining Time:";
 "profile_change_name"="Rename";
@@ -3500,13 +3494,7 @@ Quantity: Unlimited";
 "technology_description_79"="Increases the Double Items Drop Rate from Monsters.";
 "technology_description_84"="Increases the speed of gathering Gems.";
 "dailytask_description22"="Complete exploring Relics for {0:D} time(s)";
-"ruin_detail_tips"="1. Use a Treasure Map to locate a Relic on the world map.  Send out troops to explore the Relic and earn awesome rewards!  The troops will automatically return when the resources they carry reach troop load capacity.
-
-2. Your Alliance members can help explore your Relic and receive rewards.  On the other hand, your enemies can attack and occupy your Relic.
-
-3. If you complete the Relic exploring on time, you will receive an additional package.  What's more, all your Alliance members will receive an Alliance package.  Both of the packages will be sent via in game Mail system.(Notice: You will not receive the additional package if your Relic is occupied by an enemy.)
-
-4. The more Alliance members participate, the faster the exploration will be.";
+"ruin_detail_tips"="1. Use a Treasure Map to locate a Relic on the world map.  Send out troops to explore the Relic and earn awesome rewards!  The troops will automatically return when the resources they carry reach troop load capacity. 2. Your Alliance members can help explore your Relic and receive rewards.  On the other hand, your enemies can attack and occupy your Relic. 3. If you complete the Relic exploring on time, you will receive an additional package.  What's more, all your Alliance members will receive an Alliance package.  Both of the packages will be sent via in game Mail system.(Notice: You will not receive the additional package if your Relic is occupied by an enemy.) 4. The more Alliance members participate, the faster the exploration will be.";
 "general_white_quality_name"="Common General";
 "general_green_quality_name"="Uncommon General";
 "general_blue_quality_name"="Excellent General";
@@ -3695,21 +3683,7 @@ Quantity: Unlimited";
 "item_description_key2082"="Increases Troop Training Capacity by {0:D} in Subordinate City when General is the Mayor.";
 "item_description_key2083"="Increases Troop Training Speed by {0:D} in Subordinate City when General is the Mayor.";
 "item_description_key2183"="Increases Troop Load by {0:D} when General is leading the army.";
-"tavern_text"="1. Tavern:
-Upgrade your Tavern to unlock more high quality Generals for you to recruit.  You can only recruit Common and Uncommon Generals in a Tavern of level 10 or below.
-
-2. Generals:
-Generals can increase Troop Power when leading an army or defending the Main City, as well as increase the Troop Training Speed and Gold Production when appointed Mayor in a Subordinate City.
-
-3. General Attributes:
-Leadership: Boosts the Troop Training Speed when General is appointed Mayor in a Subordinate City, and the Troop HP and March Speed when General is leading the army.
-Politics: Boosts the Gold Production and Construction Speed when General is appointed Mayor in a Subordinate City, and the Resources Gathering Speed when General is leading the army.
-Attack: Increases Troop Attack when General is leading the army.
-Defense: Increases Troop Defense when General is leading the army.
-Level: Upgrade General Level to boost General's Leadership, Politics, Attack and Defense.
-
-4. Historic Generals:
-A Historic General has a base quality of Legendary/Epic, a set of high General Attributes and a unique General Skill.  Historic Generals can be recruited in a high level Tavern and captured in a Legendary/Epic NPC Subordinate City.";
+"tavern_text"="1. Tavern: Upgrade your Tavern to unlock more high quality Generals for you to recruit.  You can only recruit Common and Uncommon Generals in a Tavern of level 10 or below. 2. Generals: Generals can increase Troop Power when leading an army or defending the Main City, as well as increase the Troop Training Speed and Gold Production when appointed Mayor in a Subordinate City. 3. General Attributes: Leadership: Boosts the Troop Training Speed when General is appointed Mayor in a Subordinate City, and the Troop HP and March Speed when General is leading the army. Politics: Boosts the Gold Production and Construction Speed when General is appointed Mayor in a Subordinate City, and the Resources Gathering Speed when General is leading the army. Attack: Increases Troop Attack when General is leading the army. Defense: Increases Troop Defense when General is leading the army. Level: Upgrade General Level to boost General's Leadership, Politics, Attack and Defense. 4. Historic Generals: A Historic General has a base quality of Legendary/Epic, a set of high General Attributes and a unique General Skill.  Historic Generals can be recruited in a high level Tavern and captured in a Legendary/Epic NPC Subordinate City.";
 "internal_name"="Lv{0:D} Relic";
 "roulette_play_name_key1"="Cleopatra's Blessing";
 "roulette_play_name_key2"="Spartacus's Blessing";
@@ -3893,30 +3867,13 @@ A Historic General has a base quality of Legendary/Epic, a set of high General A
 "select_civilization_tips_tech"="Culture Features:";
 "select_civilization_tips_desc"="About:";
 "select_civilization_tips_tech_desc"="{0:S}, {1:S}";
-"talent_text"="1. You can use Monarch Talent Points to learn your Monarch Talent.  You will receive 1 Monarch Talent Point each time your Monarch is leveled up.  Higher Monarch Level unlocks higher tier Monarch Talent to learn.
-
-2. You can only choose 1 Monarch Talent to learn at the same Monarch Level.
-
-3. When learning the next tier's Monarch Talent, you can only choose the adjacent column or the same column as the previous tier's Monarch Talent.";
-"rank_text"="1. The Top Charts refresh at a regular time.
-
-2. Your Rank will be promoted when your Keep Level meets the requirement and your Prestige meets both the quantity and ranking requirements.";
+"talent_text"="1. You can use Monarch Talent Points to learn your Monarch Talent.  You will receive 1 Monarch Talent Point each time your Monarch is leveled up.  Higher Monarch Level unlocks higher tier Monarch Talent to learn. 2. You can only choose 1 Monarch Talent to learn at the same Monarch Level. 3. When learning the next tier's Monarch Talent, you can only choose the adjacent column or the same column as the previous tier's Monarch Talent.";
+"rank_text"="1. The Top Charts refresh at a regular time. 2. Your Rank will be promoted when your Keep Level meets the requirement and your Prestige meets both the quantity and ranking requirements.";
 "auto_translate_world_channel"="World Channel";
 "auto_translate_alliance_channel"="Alliance Channel";
 "bind_resource_title"="Exclusive Resources";
-"bind_resource_text"="1. Open Exclusive Resources Chest to receive Exclusive Resources.
-2. Exclusive Resources will not be transported, scouted or plundered.  Your troops will not consume them, either.";
-"subcity_text"="1. Promote your Rank, and you will be able to occupy more Subordinate Cities.
-
-2. There are 5 types of Subordinate City: Common, Uncommon, Rare, Legendary and Epic.  The higher quality your Subordinate City possesses, the more benefits you will gain.
-
-3. In a Subordinate City, you can produce Gold and train troops for your Main City.  Your Subordinate City's Policy, Age and Mayor will determine the Gold production speed and troops training speed.  Subordinate City of different Cultures offers different buffs.
-
-4. Your Subordinate City's Age determines the buildings level cap in your Subordinate City.  You need to appoint Mayor for your Subordinate City to upgrade the Age.
-
-5. When your Main City or one of your Subordinate Cities is under attack, the troops from other Cities will help defend.  But the troops in a Subordinate City cannot be sent to battles when you do not have a Mayor in it.
-
-6. When a player occupies a new Subordinate City, it will be reset to level 1.  When a player occupies a Subordinate City that he used to own, it will be reset to the previous level.";
+"bind_resource_text"="1. Open Exclusive Resources Chest to receive Exclusive Resources. 2. Exclusive Resources will not be transported, scouted or plundered.  Your troops will not consume them, either.";
+"subcity_text"="1. Promote your Rank, and you will be able to occupy more Subordinate Cities. 2. There are 5 types of Subordinate City: Common, Uncommon, Rare, Legendary and Epic.  The higher quality your Subordinate City possesses, the more benefits you will gain. 3. In a Subordinate City, you can produce Gold and train troops for your Main City.  Your Subordinate City's Policy, Age and Mayor will determine the Gold production speed and troops training speed.  Subordinate City of different Cultures offers different buffs. 4. Your Subordinate City's Age determines the buildings level cap in your Subordinate City.  You need to appoint Mayor for your Subordinate City to upgrade the Age. 5. When your Main City or one of your Subordinate Cities is under attack, the troops from other Cities will help defend.  But the troops in a Subordinate City cannot be sent to battles when you do not have a Mayor in it. 6. When a player occupies a new Subordinate City, it will be reset to level 1.  When a player occupies a Subordinate City that he used to own, it will be reset to the previous level.";
 "dailytask_description32"="Cultivate Generals for {0:D} time(s)";
 "dailytask_description33"="Gather {0:D} Food from outside the City";
 "dailytask_description34"="Gather {0:D} Lumber from outside the City";
@@ -25970,16 +25927,8 @@ Biollante is coming. Deal damage to its and earn rewards!";
 "miracle_return_roulette_text2"="Round 1 ends in:";
 "miracle_return_roulette_text3"="Round 2 ends in:";
 "miracle_return_roulette_text4"="Round 3 ends in:";
-"general_history286"="In 1585, the region of Korasan was engulfed in smoke as Tachibana Dosetsu and his troops waited in the nearby forests to strike a decisive blow against the Ryūzōji army.
-
-Despite the enemy's attempts to cover the battlefield with fire, Dosetsu used the smoke as cover to deceive the enemy and sent a detachment to launch a surprise attack. The detachment feigned a retreat to draw the Ryūzōji army deeper, engaging them briefly before leading them into an encirclement. At this point, Dosetsu's troops in the forest emerged and launched a devastating attack, causing the Ryūzōji army to scatter in defeat. The battle concluded a few hours later, with Tachibana's army emerging as the victors.
-
-Tachibana Dosetsu was renowned as one of the bravest and wisest of the Ōtomo retainers.";
-"general_history287"="Gilgamesh was a hero in ancient Mesopotamian mythology and the protagonist of the Epic of Gilgamesh. He was a king of the Sumerian city-state of Uruk and was worshipped as a god after his death.
-
-In the epic, Gilgamesh was portrayed as a demigod with superhuman strength. He formed a close bond with the wild man Enkidu and went on many exciting adventures with him, including defeating the monster Humbaba and the Bull of Heaven, which was sent to attack them by the goddess Ishtar.
-
-Gilgamesh's legacy lived on as a symbol of humanity's unending pursuit of fame, glory, and immortality. He was remembered as a brave and adventurous hero, but also a tragic figure whose quest for greatness was ultimately in vain.";
+"general_history286"="In 1585, the region of Korasan was engulfed in smoke as Tachibana Dosetsu and his troops waited in the nearby forests to strike a decisive blow against the Ryūzōji army. Despite the enemy's attempts to cover the battlefield with fire, Dosetsu used the smoke as cover to deceive the enemy and sent a detachment to launch a surprise attack. The detachment feigned a retreat to draw the Ryūzōji army deeper, engaging them briefly before leading them into an encirclement. At this point, Dosetsu's troops in the forest emerged and launched a devastating attack, causing the Ryūzōji army to scatter in defeat. The battle concluded a few hours later, with Tachibana's army emerging as the victors. Tachibana Dosetsu was renowned as one of the bravest and wisest of the Ōtomo retainers.";
+"general_history287"="Gilgamesh was a hero in ancient Mesopotamian mythology and the protagonist of the Epic of Gilgamesh. He was a king of the Sumerian city-state of Uruk and was worshipped as a god after his death. In the epic, Gilgamesh was portrayed as a demigod with superhuman strength. He formed a close bond with the wild man Enkidu and went on many exciting adventures with him, including defeating the monster Humbaba and the Bull of Heaven, which was sent to attack them by the goddess Ishtar. Gilgamesh's legacy lived on as a symbol of humanity's unending pursuit of fame, glory, and immortality. He was remembered as a brave and adventurous hero, but also a tragic figure whose quest for greatness was ultimately in vain.";
 "item_description_key4680"="Use it to receive the Guardian Deity March Effect.";
 "item_name_key4747"="Odyssey - Elise";
 "item_description_key4747"="Elise returns from the war. She is the mother of dragons, but also the protector of the empire. Her odyssey is the trial and blessing of the gods.";
@@ -25987,18 +25936,10 @@ Gilgamesh's legacy lived on as a symbol of humanity's unending pursuit of fame, 
 "item_description_key4724"="Douglas at his triumphal celebration. The crowd chants his name, and his great deeds will live on forever. The hero who has returned from his odyssey will be remembered and celebrated for eternity!";
 "beautygiftsystem_text1"="First Acquaintance";
 "beautygiftsystem_text2"="Champion Boosting Package";
-"beautygiftsystem_text4"="1. Champion Boosting Package feature unlocks at Keep Level 5.
-2. During the event, you can increase Champions' Loyalty levels to unlock Champion Boosting Packages.";
+"beautygiftsystem_text4"="1. Champion Boosting Package feature unlocks at Keep Level 5. 2. During the event, you can increase Champions' Loyalty levels to unlock Champion Boosting Packages.";
 "item_name_key4725"="Surprise Redemption Package";
-"triumph_leaderboard_rule1"="1. During the event, players can get {0} by completing event quests and claim rewards when reaching specific points.
-2. Each event ranking consists of {1} Servers. Players will be ranked based on the amount of {2} owned and get ranking rewards including {3} and other items.
-3. Players can obtain {4} and {5} from Resource Spots, Monsters and Event Packages. Consume them to redeem rare items in the event shop. Both event items will disappear upon the end of the event. Please use them in time.
-4. After the event ends, there is another day for players to get more event items for rewards. During this period, players cannot get more {6}.
-
-The {7} that can be obtained in each quest are as follows:";
-"triumph_lottery_rule1"="1. During the event, you can consume {0} to win rewards. There is also a chance to get {1}. Please view reward details in Aurora Candlestick.
-2. If you don't get {3} after opening {2} times, it is guaranteed within the next opening ({4}). This effect resets every time you get the reward.
-3. You can get {5} from Monsters, Resource Spots and Event Packages. They will disappear upon the end of the event. Please use them in time.";
+"triumph_leaderboard_rule1"="1. During the event, players can get {0} by completing event quests and claim rewards when reaching specific points. 2. Each event ranking consists of {1} Servers. Players will be ranked based on the amount of {2} owned and get ranking rewards including {3} and other items. 3. Players can obtain {4} and {5} from Resource Spots, Monsters and Event Packages. Consume them to redeem rare items in the event shop. Both event items will disappear upon the end of the event. Please use them in time. 4. After the event ends, there is another day for players to get more event items for rewards. During this period, players cannot get more {6}. The {7} that can be obtained in each quest are as follows:";
+"triumph_lottery_rule1"="1. During the event, you can consume {0} to win rewards. There is also a chance to get {1}. Please view reward details in Aurora Candlestick. 2. If you don't get {3} after opening {2} times, it is guaranteed within the next opening ({4}). This effect resets every time you get the reward. 3. You can get {5} from Monsters, Resource Spots and Event Packages. They will disappear upon the end of the event. Please use them in time.";
 "dress_sanctuary"="Sacred Domain";
 "dress_sanctuary_name1"="Gets from Lost in the Sand event.";
 "dress_tiger_unlock"="Are you sure you want to consume {0} of {1} to unlock?";
@@ -26023,17 +25964,7 @@ The {7} that can be obtained in each quest are as follows:";
 "Marbas_roulette9"="Lion Statue Chest";
 "Marbas_roulette10"="Lion Statue";
 "Marbas_roulette11"="A lion statue found in Uruk, an ancient city of Sumer. Use it to spin Wheel of Past Secret.";
-"Marbas_roulette12"="1. You can participate in the limited Wheel of Past Secret event to win awesome rewards.
-2. During the event, you will receive 1 Free Spin chance every day. The free chance reset every day, please use it in time.
-3. Use Lion Statues to spin the event wheel and get rewards. The rewards are offered in limited quantities.
-4. The rewards are divided into 8 kinds of common rewards and 4 kinds of limited rewards. When you gain all 4 kinds of limited rewards, you will receive all remaining rewards in the current wheel directly without spinning again.
-5. The probability of gaining a rewards will decrease with the reduction of its remaining quantity. At the same time, the probability of gaining other rewards will increase.
-6. Any remaining Lion Statues will be converted into Lion Statue Chests. Open the chest to receive materials, speedups and other items.
-7. If you don't get any limited reward after spinning for a certain times, the limited reward is guaranteed within the next spinning.
-The 1st limited reward is guaranteed after spinning {0} times.
-The 2nd limited reward is guaranteed after spinning {1} times.
-The 3rd limited reward is guaranteed after spinning {2} times.
-The 4th limited reward is guaranteed after spinning {3} times.";
+"Marbas_roulette12"="1. You can participate in the limited Wheel of Past Secret event to win awesome rewards. 2. During the event, you will receive 1 Free Spin chance every day. The free chance reset every day, please use it in time. 3. Use Lion Statues to spin the event wheel and get rewards. The rewards are offered in limited quantities. 4. The rewards are divided into 8 kinds of common rewards and 4 kinds of limited rewards. When you gain all 4 kinds of limited rewards, you will receive all remaining rewards in the current wheel directly without spinning again. 5. The probability of gaining a rewards will decrease with the reduction of its remaining quantity. At the same time, the probability of gaining other rewards will increase. 6. Any remaining Lion Statues will be converted into Lion Statue Chests. Open the chest to receive materials, speedups and other items. 7. If you don't get any limited reward after spinning for a certain times, the limited reward is guaranteed within the next spinning. The 1st limited reward is guaranteed after spinning {0} times. The 2nd limited reward is guaranteed after spinning {1} times. The 3rd limited reward is guaranteed after spinning {2} times. The 4th limited reward is guaranteed after spinning {3} times.";
 "hero_name288"="John Churchill";
 "general_description288"="An English soldier and statesman, who consolidated Britain's emergence as a front-rank power with several victories.";
 "hero_feature_battle177"="Battle of Blenheim";
@@ -26096,11 +26027,7 @@ The 4th limited reward is guaranteed after spinning {3} times.";
 "buffer_description608"="All Traps Damage when being rallied";
 "item_description_key3838_2"="Necessary item to upgrade quality of Spiritual Beast Nine-tailed Fox. Disassemble it to receive Crimson Crystals.";
 "alliance_showdown_text28"="There was no battle on this line.";
-"general_history288"="In the summer of 1704, the British dragoons crossed the Nebel River, with the marshal John Churchill leading them. Churchill devised a brilliant plan to launch a surprise attack on the French command, even though the French defenses were strong.
-
-With his command and tactical talent, Churchill used cavalry formations to penetrate deep into the enemy formation. He then launched a fierce attack on the main French army under the cover of artillery. Despite the battle dragging on until late at night, the Allied forces ultimately emerged victorious, capturing the French commander and shattering the myth of French invincibility.
-
-This battle went down in history as one of the greatest victories of British arms, and John Churchill's victories secured his place as one of Europe's greatest generals.";
+"general_history288"="In the summer of 1704, the British dragoons crossed the Nebel River, with the marshal John Churchill leading them. Churchill devised a brilliant plan to launch a surprise attack on the French command, even though the French defenses were strong. With his command and tactical talent, Churchill used cavalry formations to penetrate deep into the enemy formation. He then launched a fierce attack on the main French army under the cover of artillery. Despite the battle dragging on until late at night, the Allied forces ultimately emerged victorious, capturing the French commander and shattering the myth of French invincibility. This battle went down in history as one of the greatest victories of British arms, and John Churchill's victories secured his place as one of Europe's greatest generals.";
 "beast_quality_tips2_3"="Are you sure you want to spend {0} Gems, {1} Gold and {2} Crimson Crystals on upgrading the Spiritual Beast's quality?";
 "luckydraw_text_1"="Ⅰ";
 "luckydraw_text_2"="Ⅱ";
@@ -26114,18 +26041,12 @@ This battle went down in history as one of the greatest victories of British arm
 "luckydraw_text_10"="The Second Round ends in {0}";
 "luckydraw_text_11"="First Round";
 "luckydraw_text_12"="Tap the screen to skip the animation.";
-"item_name_key4753"="Epic Subordinate City Optional Chest
-Top 1 in personal scores";
-"item_name_key4754"="Epic Subordinate City Key
-Top 1 in personal scores";
+"item_name_key4753"="Epic Subordinate City Optional Chest Top 1 in personal scores";
+"item_name_key4754"="Epic Subordinate City Key Top 1 in personal scores";
 "three_question_mark"="???";
 "alliance_gift_title5"="Gift Points:";
 "alliance_gift_title6"="Gift Preview";
-"alliance_gift_info"="1. Purchasing basic Gems or any package in the Shop will grant a Package Gift to all other Alliance members, while defeating a Boss Monster will give all Alliance members a Boss Gift.
-2. The Package Gift can yield rare items, Alliance Gift Points, and Chest Points, while the Boss Gift offers items and Chest Points.
-3. You can add more Alliance Gift Points to increase the Alliance Gift level and more Chest Points to open the Shining Chest.
-4. Once the Chest Point meter is full, all Alliance members will be able to open the Shining Chest.
-5. The quality of Shining Chest improves with the level of Alliance Gift. A higher-quality Shining Chest offers better rewards!";
+"alliance_gift_info"="1. Purchasing basic Gems or any package in the Shop will grant a Package Gift to all other Alliance members, while defeating a Boss Monster will give all Alliance members a Boss Gift. 2. The Package Gift can yield rare items, Alliance Gift Points, and Chest Points, while the Boss Gift offers items and Chest Points. 3. You can add more Alliance Gift Points to increase the Alliance Gift level and more Chest Points to open the Shining Chest. 4. Once the Chest Point meter is full, all Alliance members will be able to open the Shining Chest. 5. The quality of Shining Chest improves with the level of Alliance Gift. A higher-quality Shining Chest offers better rewards!";
 "alliance_gift_tips"="Defeating a Boss Monster offers a Boss Gift.";
 "alliancebox_name_1"="Shining Chest I";
 "alliancebox_name_2"="Shining Chest II";
@@ -26253,10 +26174,7 @@ Top 1 in personal scores";
 "treasure_description60"="Please obtain the selected treasure first.";
 "treasure_description61"="Mysterious City";
 "treasure_description62"="Daimyo";
-"luckydraw_text_14"="1. Prayer Celebration is divided into two rounds.
-2. In the first round of the event, players can pray to increase Fortune level and obtain rewards.
-3. In the second round of the event, the higher your Fortune level is, the better the rewards you will get, and no more Fortune EXP will be gained.
-4. Each praying costs 1 Ema Coin, which can be obtained by purchasing Prayer Celebration Packages or by killing Lava Turtles, Warlords, Golems and Witches.";
+"luckydraw_text_14"="1. Prayer Celebration is divided into two rounds. 2. In the first round of the event, players can pray to increase Fortune level and obtain rewards. 3. In the second round of the event, the higher your Fortune level is, the better the rewards you will get, and no more Fortune EXP will be gained. 4. Each praying costs 1 Ema Coin, which can be obtained by purchasing Prayer Celebration Packages or by killing Lava Turtles, Warlords, Golems and Witches.";
 "packet_luckydraw_1st"="Prayer Celebration Package ({0} Purchase Chance(s) Everyday)";
 "packet_luckydraw_2nd"="Prayer Celebration Package";
 "packet_luckydraw_1st_text"="The package contains massive Ema Coins and rare items!";
@@ -26301,7 +26219,4 @@ Top 1 in personal scores";
 "GP_sale_10"="Golden Week Sale";
 "GP_sale_11"="Golden Week Package";
 "GP_sale_12"="Purchase to get Historic General (Himiko)!";
-"dragon_treasury_text4"="1. Players can purchase Dragon Treasures Package to get Treasure Compasses. Use Treasure Compass to spin the event wheel and get rewards.
-2. Players can get corresponding amount of Dragon Gemstones when they win White Dragon Treasure, Purple Dragon Treasure, Golden Dragon Treasure or Red Dragon Treasure.
-3. Dragon Gemstones can be used to redeem items in Dragon Shop.
-4. Any remaining Treasure Compasses will be converted into Treasure Compass Chests after the event ends. Please use them in time.";
+"dragon_treasury_text4"="1. Players can purchase Dragon Treasures Package to get Treasure Compasses. Use Treasure Compass to spin the event wheel and get rewards. 2. Players can get corresponding amount of Dragon Gemstones when they win White Dragon Treasure, Purple Dragon Treasure, Golden Dragon Treasure or Red Dragon Treasure. 3. Dragon Gemstones can be used to redeem items in Dragon Shop. 4. Any remaining Treasure Compasses will be converted into Treasure Compass Chests after the event ends. Please use them in time.";
