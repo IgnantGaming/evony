@@ -107,4 +107,17 @@
 			for (var i = 0; i < rows.length; i++) {
 				var task = rows[i].getElementsByTagName("td")[0];
 				var description = rows[i].getElementsByTagName("td")[1];
-				if (task.innerHTML.toLowerCase().
+				if (task.innerHTML.toLowerCase().indexOf(filter) > -1 || description.innerHTML.toLowerCase().indexOf(filter) > -1) {
+					rows[i].style.display = "";
+				} else {
+					rows[i].style.display = "none";
+				}
+			}
+		}
+		loadFile("evonypull.bytes", function(response) {
+			data = response;
+			createTable();
+		});
+	</script>
+	</body>
+</html>
