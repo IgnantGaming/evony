@@ -1,7 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
+  <head>
+    <title>[DataPull] UWS 898 Evony</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2781576820471394"
+     crossorigin="anonymous"></script>
+     <meta charset="UTF-8">
 	<title>Evony Data Pull</title>
 	<style>
 		table {
@@ -32,95 +39,113 @@
 			margin-bottom: 1em;
 		}
 	</style>
-</head>
-<body>
-	<div>
-		<p> This data is pulled from the evony game files, some items may not be available currently or discontinued. Take it with a grain of salt. </p>
-	</div>
-	<div>
-		<label for="search">Search: </label>
-		<input type="text" id="search" onkeyup="searchTable()" placeholder="Type to search...">
-	</div>
-	<table id="table">
-		<thead>
-			<tr>
-				<th onclick="sortTable(0)">Task</th>
-				<th onclick="sortTable(1)">Description</th>
-			</tr>
-		</thead>
-		<tbody>
-		</tbody>
-	</table>
-	
-	<script>
-		var data = null;
-		
-		function loadFile(url, callback) {
-			var xhr = new XMLHttpRequest();
-			xhr.onreadystatechange = function() {
-				if (xhr.readyState === 4 && xhr.status === 200) {
-					callback(xhr.responseText);
-				}
-			};
-			xhr.open("GET", url, true);
-			xhr.send();
-		}
-		
-		function createTable() {
-			var lines = data.split("\n");
-			var table = document.getElementById("table").getElementsByTagName("tbody")[0];
-			for (var i = 0; i < lines.length; i++) {
-				var line = lines[i].trim();
-				if (line === "") {
-					continue;
-				}
-				var parts = line.split("=");
-				var task = parts[0].trim();
-				var description = parts[1].replace("{0}", "<input type='text' value='0'>").trim();
-				var row = table.insertRow();
-				row.insertCell(0).innerHTML = task;
-				row.insertCell(1).innerHTML = description;
-			}
-		}
-		
-		function sortTable(column) {
-			var table = document.getElementById("table");
-			var rows = Array.from(table.getElementsByTagName("tbody")[0].getElementsByTagName("tr"));
-			rows.sort(function(a, b) {
-				var x = a.getElementsByTagName("td")[column].innerHTML.toLowerCase();
-				var y = b.getElementsByTagName("td")[column].innerHTML.toLowerCase();
-				if (x < y) {
-					return -1;
-				}
-				if (x > y) {
-					return 1;
-				}
-				return 0;
-			});
-			for (var i = 0; i < rows.length; i++) {
-				table.getElementsByTagName("tbody")[0].appendChild(rows[i]);
-			}
-		}
-		
-		function searchTable() {
-			var input = document.getElementById("search");
-			var filter = input.value.toLowerCase();
-			var table = document.getElementById("table");
-			var rows = table.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
-			for (var i = 0; i < rows.length; i++) {
-				var task = rows[i].getElementsByTagName("td")[0];
-				var description = rows[i].getElementsByTagName("td")[1];
-				if (task.innerHTML.toLowerCase().indexOf(filter) > -1 || description.innerHTML.toLowerCase().indexOf(filter) > -1) {
-					rows[i].style.display = "";
-				} else {
-					rows[i].style.display = "none";
-				}
-			}
-		}
-		loadFile("evonypull.bytes", function(response) {
-			data = response;
-			createTable();
-		});
-	</script>
-	</body>
+  </head>
+  
+  <body style="background-color:rgb(172,172,186)">
+  
+    <div class="topPane">
+        <h1> United We Stand 898 - Evony TKR </h1>
+    </div>
+    
+    <div class="topnav"> 
+        <a href="index.html">Home</a>
+        <a href="svs.html">SvS</a>  
+        <a href="calculator.html">Calculators</a>
+    </div>
+          
+    <div class="body">
+        <div>
+            <p> This data is pulled from the evony game files, some items may not be available currently or discontinued. Take it with a grain of salt. </p>
+        </div>
+        <div>
+            <label for="search">Search: </label>
+            <input type="text" id="search" onkeyup="searchTable()" placeholder="Type to search...">
+        </div>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">Task</th>
+                    <th onclick="sortTable(1)">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        
+        <script>
+            var data = null;
+            
+            function loadFile(url, callback) {
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        callback(xhr.responseText);
+                    }
+                };
+                xhr.open("GET", url, true);
+                xhr.send();
+            }
+            
+            function createTable() {
+                var lines = data.split("\n");
+                var table = document.getElementById("table").getElementsByTagName("tbody")[0];
+                for (var i = 0; i < lines.length; i++) {
+                    var line = lines[i].trim();
+                    if (line === "") {
+                        continue;
+                    }
+                    var parts = line.split("=");
+                    var task = parts[0].trim();
+                    var description = parts[1].replace("{0}", "<input type='text' value='0'>").trim();
+                    var row = table.insertRow();
+                    row.insertCell(0).innerHTML = task;
+                    row.insertCell(1).innerHTML = description;
+                }
+            }
+            
+            function sortTable(column) {
+                var table = document.getElementById("table");
+                var rows = Array.from(table.getElementsByTagName("tbody")[0].getElementsByTagName("tr"));
+                rows.sort(function(a, b) {
+                    var x = a.getElementsByTagName("td")[column].innerHTML.toLowerCase();
+                    var y = b.getElementsByTagName("td")[column].innerHTML.toLowerCase();
+                    if (x < y) {
+                        return -1;
+                    }
+                    if (x > y) {
+                        return 1;
+                    }
+                    return 0;
+                });
+                for (var i = 0; i < rows.length; i++) {
+                    table.getElementsByTagName("tbody")[0].appendChild(rows[i]);
+                }
+            }
+            
+            function searchTable() {
+                var input = document.getElementById("search");
+                var filter = input.value.toLowerCase();
+                var table = document.getElementById("table");
+                var rows = table.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+                for (var i = 0; i < rows.length; i++) {
+                    var task = rows[i].getElementsByTagName("td")[0];
+                    var description = rows[i].getElementsByTagName("td")[1];
+                    if (task.innerHTML.toLowerCase().indexOf(filter) > -1 || description.innerHTML.toLowerCase().indexOf(filter) > -1) {
+                        rows[i].style.display = "";
+                    } else {
+                        rows[i].style.display = "none";
+                    }
+                }
+            }
+            loadFile("evonypull.bytes", function(response) {
+                data = response;
+                createTable();
+            });
+        </script>
+  </body>
+<footer> 
+  <div class="text-center p-3">
+    IgnantGaming LLC.
+  </div>
+</footer>
 </html>
