@@ -27,9 +27,17 @@
 		tr:nth-child(even) {
 			background-color: #f2f2f2;
 		}
+		
+		#search {
+			margin-bottom: 1em;
+		}
 	</style>
 </head>
 <body>
+	<div>
+		<label for="search">Search: </label>
+		<input type="text" id="search" onkeyup="searchTable()" placeholder="Type to search...">
+	</div>
 	<table id="table">
 		<thead>
 			<tr>
@@ -42,6 +50,8 @@
 	</table>
 	
 	<script>
+		var data = null;
+		
 		function loadFile(url, callback) {
 			var xhr = new XMLHttpRequest();
 			xhr.onreadystatechange = function() {
@@ -53,7 +63,7 @@
 			xhr.send();
 		}
 		
-		function createTable(data) {
+		function createTable() {
 			var lines = data.split("\n");
 			var table = document.getElementById("table").getElementsByTagName("tbody")[0];
 			for (var i = 0; i < lines.length; i++) {
@@ -89,7 +99,12 @@
 			}
 		}
 		
-		loadFile("evonypull.bytes", createTable);
-	</script>
-</body>
-</html>
+		function searchTable() {
+			var input = document.getElementById("search");
+			var filter = input.value.toLowerCase();
+			var table = document.getElementById("table");
+			var rows = table.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+			for (var i = 0; i < rows.length; i++) {
+				var task = rows[i].getElementsByTagName("td")[0];
+				var description = rows[i].getElementsByTagName("td")[1];
+				if (task.innerHTML.toLowerCase().
